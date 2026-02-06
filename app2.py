@@ -399,13 +399,18 @@ with st.sidebar:
 
     year_min = int(np.nanmin(df["Year"]))
     year_max = int(np.nanmax(df["Year"]))
-    year_range = st.slider(
-        "Year Range",
-        min_value=year_min,
-        max_value=year_max,
-        value=(year_min, year_max),
-        step=1,
-    )
+    single_year = year_min == year_max
+    if single_year:
+        year_range = (year_min, year_max)
+        st.info(f"Only one year ({year_min}) is available in this dataset.")
+    else:
+        year_range = st.slider(
+            "Year Range",
+            min_value=year_min,
+            max_value=year_max,
+            value=(year_min, year_max),
+            step=1,
+        )
 
     district_options = (
         pd.Series(df["District"].dropna().unique())
@@ -436,8 +441,9 @@ with st.sidebar:
     compare_view = "Yearly"
     if compare_mode:
         compare_dim = st.radio("Compare By", ["District", "Primary Type"], horizontal=True)
+        compare_view_options = ["Monthly", "Hourly"] if single_year else ["Yearly", "Monthly", "Hourly"]
         compare_view = st.radio(
-            "Compare View", ["Yearly", "Monthly", "Hourly"], horizontal=True
+            "Compare View", compare_view_options, horizontal=True
         )
         if compare_dim == "District":
             compare_values = st.multiselect(
@@ -567,8 +573,11 @@ with tab_temporal:
 
     col_a, col_b = st.columns(2)
     with col_a:
-        x, y = numeric_xy(yearly_counts)
-        plot_line(x, y, "Crime Incidents by Year", "Year", "Total Incidents", xticks=x)
+        if single_year:
+            st.info("Year-over-year chart is hidden because this dataset contains only one year.")
+        else:
+            x, y = numeric_xy(yearly_counts)
+            plot_line(x, y, "Crime Incidents by Year", "Year", "Total Incidents", xticks=x)
 
     with col_b:
         x, y = numeric_xy(monthly_counts)
@@ -592,33 +601,39 @@ with tab_temporal:
     heat_col1, heat_col2 = st.columns(2)
 
     with heat_col1:
-        pivot_year_hour = (
-            filtered_df.pivot_table(index="Year", columns="Hour", aggfunc="size", fill_value=0)
-            .reindex(columns=HOUR_ORDER, fill_value=0)
-            .sort_index()
-        )
-        plot_heatmap(
-            pivot_year_hour,
-            "Crime Incidents by Year and Hour",
-            "Hour of Day",
-            "Year",
-            "Viridis",
-            xticks=HOUR_ORDER,
-        )
+        if single_year:
+            st.info("Year-hour heatmap is hidden because this dataset contains only one year.")
+        else:
+            pivot_year_hour = (
+                filtered_df.pivot_table(index="Year", columns="Hour", aggfunc="size", fill_value=0)
+                .reindex(columns=HOUR_ORDER, fill_value=0)
+                .sort_index()
+            )
+            plot_heatmap(
+                pivot_year_hour,
+                "Crime Incidents by Year and Hour",
+                "Hour of Day",
+                "Year",
+                "Viridis",
+                xticks=HOUR_ORDER,
+            )
 
     with heat_col2:
-        pivot_year_month = (
-            filtered_df.pivot_table(index="Year", columns="Month", aggfunc="size", fill_value=0)
-            .reindex(columns=MONTH_ORDER, fill_value=0)
-            .sort_index()
-        )
-        plot_heatmap(
-            pivot_year_month,
-            "Crime Trends by Year and Month",
-            "Month",
-            "Year",
-            "Magma",
-        )
+        if single_year:
+            st.info("Year-month heatmap is hidden because this dataset contains only one year.")
+        else:
+            pivot_year_month = (
+                filtered_df.pivot_table(index="Year", columns="Month", aggfunc="size", fill_value=0)
+                .reindex(columns=MONTH_ORDER, fill_value=0)
+                .sort_index()
+            )
+            plot_heatmap(
+                pivot_year_month,
+                "Crime Trends by Year and Month",
+                "Month",
+                "Year",
+                "Magma",
+            )
 
     pivot_day_hour = (
         filtered_df.pivot_table(
