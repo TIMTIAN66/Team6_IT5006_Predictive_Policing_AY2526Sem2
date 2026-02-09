@@ -1,62 +1,52 @@
-# Chicago Crime Dashboard - 右侧筛选说明
+# Chicago Crime Dashboard (app2.py)
 
-下面解释右侧（Sidebar）每个筛选控件的作用：
+app.py reads local CSV files, while app2.py reads the same datasets from remote storage URLs (S3). Everything else is the same.
 
-- `Dataset`
-  - 选择要分析的数据集范围。
-  - `All (2015-2025)`：训练集 + 测试/验证集的合并。
-  - `Train (2015-2024)`：仅 2015-2024 年。
-  - `Test/Val (2025)`：仅 2025 年。
+**Sidebar Filters**
+- `Dataset`: Choose the dataset scope.
+- `Year Range`: Filter the data by year. If the dataset contains only one year (e.g., Test/Val 2025), the slider is hidden and the year-based charts in the Temporal tab are hidden.
+- `District`: Filter by one or more police districts.
+- `Primary Type`: Filter by one or more crime types.
+- `Arrest Filter`: Filter by arrest status (`All`, `Arrested Only`, `Not Arrested Only`).
+- `Top N (Ranked Lists)`: Controls how many items appear in ranked charts (community areas, locations, arrest rate, and correlation matrix).
+- `Comparison Mode`: Compare up to two districts or two crime types with Yearly/Monthly/Hourly views.
+- `Quick Focus (Linked Filters)`: Apply one district and one crime type in a single action.
+- `Map Sample Size`: Controls how many points are sampled for the map (bigger = more detail but slower).
 
-- `Year Range`
-  - 过滤年份范围，仅保留指定年份区间内的记录。
-  - 会影响所有图表、指标和地图。
+**Download**
+- `Download Filtered Data`: Export the filtered data as CSV. Use `Sample (100k)` to export a smaller random sample.
 
-- `District`
-  - 选择一个或多个警区（District）。
-  - 若不选，则表示不过滤。
+**Summary Metrics**
+- `Total Incidents`: Number of records after filters.
+- `Unique Crime Types`: Distinct crime categories in the filtered data.
+- `Arrest Rate`: Percent of incidents with arrests.
+- `Districts`: Number of districts represented.
+- `Latest Year`: Most recent year in the filtered data and YoY change if applicable.
+- `Top Crime Type`: Most common crime category.
+- `Peak Hour`: Hour with the most incidents.
+- `Year Range`: Active year filter range.
 
-- `Primary Type`
-  - 选择一个或多个犯罪类型。
-  - 若不选，则表示不过滤。
+**Tab: Temporal Pattern Analysis**
+- `Crime Incidents by Year`: Long-term trend across years (hidden for single-year datasets).
+- `Crime Incidents by Month`: Seasonal pattern across months.
+- `Crime Incidents by Hour of Day`: Daily cycle.
+- `Crime Incidents by Day of Week`: Weekly distribution.
+- `Crime Incidents by Year and Hour`: Heatmap of yearly vs hourly intensity (hidden for single-year datasets).
+- `Crime Trends by Year and Month`: Heatmap of yearly vs monthly intensity (hidden for single-year datasets).
+- `Crime Incidents by Day of Week and Hour`: Heatmap of weekly vs hourly intensity.
+- `Comparison View`: Side-by-side trend lines for selected districts or crime types.
 
-- `Arrest Filter`
-  - `All`：不过滤是否逮捕。
-  - `Arrested Only`：仅保留有逮捕记录的案件。
-  - `Not Arrested Only`：仅保留无逮捕记录的案件。
+**Tab: Spatial Distribution Study**
+- `Crime Distribution by Police District`: Counts by district.
+- `Top Community Areas by Crime Count`: Top-N community areas with the most incidents.
+- `Top Crime Locations`: Top-N most common location descriptions.
+- `Spatial Distribution Map (District Scatter)`: Points colored by district.
+- `Spatial Distribution Map (Heatmap)`: Density-based heatmap of incidents.
 
-- `Top N (Ranked Lists)`
-  - 仅控制“排名类图表”的显示数量（不会改变数据本身）。
-  - 影响：
-    - Top N Community Areas
-    - Top N Locations
-    - Top N Crime Types by Arrest Rate
-    - Crime Type vs District Correlation（取前 N 的犯罪类型和前 N 的 District）
-
-- `Comparison Mode`
-  - 开启后可进行对比视图（两条线）。
-  - `Compare By`：选择按 District 或 Primary Type 对比。
-  - `Compare View`：选择 Yearly / Monthly / Hourly 视角。
-  - `Select up to 2...`：最多选 2 个对象，生成对比曲线。
-
-- `Quick Focus (Linked Filters)`
-  - 快速将某个 District 或某个 Crime Type 写入全局筛选。
-  - 点击 `Apply Focus Filters` 后，会直接覆盖上面的筛选。
-
-- `Map Sample Size`
-  - 地图采样数量，控制地图上的点数/热力点数量。
-  - 数值越大越精细，但渲染更慢。
-
-- `Map Mode`
-  - 在 Spatial Distribution Map 中显示模式：
-  - `District Scatter`：按 District 上色的散点图。
-  - `Heatmap`：犯罪密度热力图。
-
-- `Heatmap Radius`（仅在 Heatmap 模式出现）
-  - 控制热力图影响半径。
-  - 越大越平滑，越小越细粒度。
-
-- `Download Filtered Data`
-  - `Full`：导出当前过滤后的完整数据。
-  - `Sample (100k)`：若数据量过大，导出 10 万条随机样本。
-
+**Tab: Crime Correlation Analysis**
+- `Total Arrests per Year`: Annual arrest counts.
+- `Crime vs Arrest Trends`: Compare total crimes vs arrests over time.
+- `Top Crime Types by Arrest Rate`: Highest arrest-rate categories.
+- `Arrest Proportion by Hour`: Stacked bar of arrest vs non-arrest by hour.
+- `Arrest Proportion by District`: Stacked bar of arrest vs non-arrest by district.
+- `Crime Composition by District (Normalized)`: Heatmap showing crime-type mix across districts.
