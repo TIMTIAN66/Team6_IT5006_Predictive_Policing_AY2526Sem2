@@ -384,7 +384,7 @@ def apply_filters(
 
 st.title("Chicago Crime Interactive Dashboard (2015-2025)")
 st.caption(
-    "Built from the EDA workflow in your PDF. Use the filters to explore temporal patterns, spatial distributions, and crime correlations."
+    "Built from the EDA workflow form EDA.ipynb. Use the filters to explore temporal patterns, spatial distributions, and crime correlations."
 )
 if not PLOTLY_AVAILABLE:
     st.info(
