@@ -1,0 +1,47 @@
+2026-03-08 19:49:46,007 | INFO | Starting pipeline under /Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2
+2026-03-08 19:49:46,007 | INFO | Run output root: output_timeline_20260308_194946
+2026-03-08 19:49:46,007 | INFO | Selected models: baseline_persistence, logistic_regression, random_forest, lstm
+2026-03-08 19:49:46,007 | INFO | Running time windows (days): [7, 3]
+2026-03-08 19:49:46,007 | INFO | Anchor date for fixed-window binning: 2015-01-01
+2026-03-08 19:49:46,032 | INFO | Scanned file tree entries=572
+2026-03-08 19:49:46,033 | INFO | Chicago train path: /Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/chicago/crime_train_2015_2024.csv
+2026-03-08 19:49:46,033 | INFO | Chicago test path: /Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/chicago/crime_test_val_2025.csv
+2026-03-08 19:49:46,033 | INFO | NIBRS roots: /Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024, /Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024
+2026-03-08 19:49:46,118 | INFO | CSV schema snapshot generated for 90 files
+2026-03-08 19:49:46,130 | INFO | Region strategy=agency (Selected agency-level alignment (agency_id) to match Chicago district-level jurisdictions.)
+2026-03-08 19:50:00,724 | INFO | Chicago unmapped ratio=0.3329
+2026-03-08 19:50:00,724 | INFO | NIBRS unmapped ratio=0.2460
+2026-03-08 19:50:05,516 | INFO | Chicago file=crime_train_2015_2024.csv rows=2519453
+2026-03-08 19:50:05,517 | INFO | Chicago date parse null rate=0.0000
+2026-03-08 19:50:05,517 | INFO | Chicago unmapped crime type rate=0.3336
+2026-03-08 19:50:05,575 | INFO | Chicago region mode=District unique_regions=24
+2026-03-08 19:50:06,554 | INFO | Chicago file=crime_test_val_2025.csv rows=236055
+2026-03-08 19:50:06,555 | INFO | Chicago date parse null rate=0.0000
+2026-03-08 19:50:06,555 | INFO | Chicago unmapped crime type rate=0.3254
+2026-03-08 19:50:06,560 | INFO | Chicago region mode=District unique_regions=23
+2026-03-08 19:50:17,362 | INFO | Loaded NIBRS root=/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024 rows=1369571
+2026-03-08 19:50:20,650 | INFO | Loaded NIBRS root=/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024 rows=416765
+2026-03-08 19:50:20,671 | INFO | NIBRS combined rows=1786336
+2026-03-08 19:50:20,672 | INFO | NIBRS invalid date rate=0.0000
+2026-03-08 19:50:20,706 | INFO | NIBRS unmapped crime rate=0.2460
+2026-03-08 19:50:20,737 | INFO | NIBRS unique regions=865
+2026-03-08 19:50:26,368 | INFO | Chicago geo points loaded rows=2713254 unique_regions=23
+2026-03-08 19:50:26,839 | INFO | Chicago geo events loaded rows=235973 unique_regions=23
+2026-03-08 19:50:26,839 | INFO | Canonical event rows | chicago_train=1679058 chicago_2025=159241 nibrs=1346870
+2026-03-08 19:50:26,842 | INFO | [7d] Building panel data
+2026-03-08 19:50:28,414 | INFO | [7d] Supervised rows | chicago_train=12408 chicago_2025=1248 nibrs=40368
+2026-03-08 19:50:28,415 | INFO | [7d] global threshold (Chicago-train only)=177
+2026-03-08 19:50:29,273 | INFO | [7d] Training/evaluating seed=0
+2026-03-08 19:52:20,283 | INFO | [7d] Training/evaluating seed=1
+2026-03-08 19:54:16,099 | INFO | [7d] Training/evaluating seed=2
+2026-03-08 19:56:25,554 | INFO | [7d] Window pipeline completed
+2026-03-08 19:56:25,651 | INFO | [3d] Building panel data
+2026-03-08 19:56:27,679 | INFO | [3d] Supervised rows | chicago_train=29088 chicago_2025=2928 nibrs=99238
+2026-03-08 19:56:27,680 | INFO | [3d] global threshold (Chicago-train only)=76
+2026-03-08 19:56:29,527 | INFO | [3d] Training/evaluating seed=0
+2026-03-08 20:00:31,123 | INFO | [3d] Training/evaluating seed=1
+2026-03-08 20:04:29,677 | INFO | [3d] Training/evaluating seed=2
+2026-03-08 20:08:47,861 | INFO | [3d] Window pipeline completed
+2026-03-08 20:08:48,684 | INFO | Pipeline completed successfully for windows=[7, 3]
+2026-03-08 20:08:48,684 | INFO | Run duration seconds: 1142.660
+2026-03-08 20:08:48,685 | INFO | Artifacts saved under: /Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/output_timeline_20260308_194946

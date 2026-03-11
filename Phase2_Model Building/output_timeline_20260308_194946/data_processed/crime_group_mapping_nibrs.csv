@@ -1,0 +1,87 @@
+nibrs_raw_offense,offense_code,offense_category_name,crime_group
+Murder and Nonnegligent Manslaughter,09A,Homicide Offenses,
+Negligent Manslaughter,09B,Homicide Offenses,
+Justifiable Homicide,09C,Homicide Offenses,
+Kidnapping/Abduction,100,Kidnapping/Abduction,
+Treason,101,Other Offenses,
+Espionage,103,Other Offenses,
+Rape,11A,Sex Offenses,
+Sodomy,11B,Sex Offenses,
+Sexual Assault With An Object,11C,Sex Offenses,assault_battery
+Criminal Sexual Contact,11D,Sex Offenses,
+Robbery,120,Robbery,robbery
+Aggravated Assault,13A,Assault Offenses,assault_battery
+Simple Assault,13B,Assault Offenses,assault_battery
+Intimidation,13C,Assault Offenses,assault_battery
+Arson,200,Arson,
+Extortion/Blackmail,210,Extortion/Blackmail,
+Burglary/Breaking & Entering,220,Burglary/Breaking & Entering,burglary
+Not Specified,23*,Larceny/Theft Offenses,theft_larceny
+Pocket-picking,23A,Larceny/Theft Offenses,theft_larceny
+Purse-snatching,23B,Larceny/Theft Offenses,theft_larceny
+Shoplifting,23C,Larceny/Theft Offenses,theft_larceny
+Theft From Building,23D,Larceny/Theft Offenses,theft_larceny
+Theft From Coin-Operated Machine or Device,23E,Larceny/Theft Offenses,theft_larceny
+Theft From Motor Vehicle,23F,Larceny/Theft Offenses,theft_larceny
+Theft of Motor Vehicle Parts or Accessories,23G,Larceny/Theft Offenses,theft_larceny
+All Other Larceny,23H,Larceny/Theft Offenses,theft_larceny
+Motor Vehicle Theft,240,Motor Vehicle Theft,motor_vehicle_theft
+Counterfeiting/Forgery,250,Counterfeiting/Forgery,
+False Pretenses/Swindle/Confidence Game,26A,Fraud Offenses,
+Credit Card/Automated Teller Machine Fraud,26B,Fraud Offenses,
+Impersonation,26C,Fraud Offenses,
+Welfare Fraud,26D,Fraud Offenses,
+Wire Fraud,26E,Fraud Offenses,
+Identity Theft,26F,Fraud Offenses,theft_larceny
+Hacking/Computer Invasion,26G,Fraud Offenses,
+Money Laundering,26H,Other Offenses,
+Embezzlement,270,Embezzlement,
+Stolen Property Offenses,280,Stolen Property Offenses,
+Destruction/Damage/Vandalism of Property,290,Destruction/Damage/Vandalism of Property,
+Illegal Entry into the United States,30A,Other Offenses,
+False Citizenship,30B,Other Offenses,
+Smuggling Aliens,30C,Other Offenses,
+Re-entry after Deportation,30D,Other Offenses,
+Drug/Narcotic Violations,35A,Drug/Narcotic Offenses,drug_narcotics
+Drug Equipment Violations,35B,Drug/Narcotic Offenses,drug_narcotics
+Failure to Register as a Sex Offender,360,Other Offenses,
+Incest,36A,"Sex Offenses, Non-forcible",
+Statutory Rape,36B,"Sex Offenses, Non-forcible",
+Pornography/Obscene Material,370,Pornography/Obscene Material,
+Betting/Wagering,39A,Gambling Offenses,
+Operating/Promoting/Assisting Gambling,39B,Gambling Offenses,
+Gambling Equipment Violation,39C,Gambling Offenses,
+Sports Tampering,39D,Gambling Offenses,
+Prostitution,40A,Prostitution Offenses,
+Assisting or Promoting Prostitution,40B,Prostitution Offenses,
+Purchasing Prostitution,40C,Prostitution Offenses,
+Harboring Escapee/Concealing from Arrest,49A,Other Offenses,
+Flight to Avoid Prosecution,49B,Other Offenses,
+Flight to Avoid Deportation,49C,Other Offenses,
+Bribery,510,Bribery,
+Weapon Law Violations,520,Weapon Law Violations,
+Violation of National Firearm Act of 1934,521,Other Offenses,
+Weapons of Mass Destruction,522,Other Offenses,
+Explosives Violation,526,Other Offenses,
+Import Violations,58A,Other Offenses,
+Export Violations,58B,Other Offenses,
+Federal Liquor Offenses,61A,Other Offenses,
+Federal Tobacco Offenses,61B,Other Offenses,
+Wildlife Trafficking,620,Other Offenses,
+"Human Trafficking, Commercial Sex Acts",64A,Human Trafficking,
+"Human Trafficking, Involuntary Servitude",64B,Human Trafficking,
+Animal Cruelty,720,Animal Cruelty,
+Bad Checks,90A,Bad Checks,
+Curfew/Loitering/Vagrancy Violations,90B,Curfew/Loitering/Vagrancy Violations,
+Disorderly Conduct,90C,Disorderly Conduct,
+Driving Under the Influence,90D,Driving Under the Influence,
+Drunkenness,90E,Drunkenness,
+"Family Offenses, Nonviolent",90F,"Family Offenses, Nonviolent",
+Liquor Law Violations,90G,Liquor Law Violations,
+Peeping Tom,90H,Peeping Tom,
+Runaway,90I,Other Offenses,
+Trespass of Real Property,90J,Trespass of Real Property,
+Failure to Appear,90K,Other Offenses,
+Federal Resource Violations,90L,Other Offenses,
+Perjury,90M,Other Offenses,
+All Other Offenses,90Z,All Other Offenses,

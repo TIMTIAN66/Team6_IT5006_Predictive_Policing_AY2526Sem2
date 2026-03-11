@@ -1,0 +1,2 @@
+time_window_days,model,seed,topk_k,n_events_total,n_events_sampled_for_plot,exact_hit_rate,neighbor_aware_hit_rate
+3,logistic_regression,0,5,235973,49998,0.29517783814249937,0.7055764854453688

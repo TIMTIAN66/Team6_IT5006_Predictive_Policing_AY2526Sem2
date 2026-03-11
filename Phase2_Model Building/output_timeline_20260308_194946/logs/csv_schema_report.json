@@ -1,0 +1,3944 @@
+[
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/chicago/crime_test_val_2025.csv",
+    "size_bytes": 60347166,
+    "columns": [
+      "ID",
+      "Case Number",
+      "Date",
+      "Block",
+      "IUCR",
+      "Primary Type",
+      "Description",
+      "Location Description",
+      "Arrest",
+      "Domestic",
+      "Beat",
+      "District",
+      "Ward",
+      "Community Area",
+      "FBI Code",
+      "X Coordinate",
+      "Y Coordinate",
+      "Year",
+      "Updated On",
+      "Latitude",
+      "Longitude",
+      "Location",
+      "Time",
+      "Month",
+      "DayOfWeek",
+      "Hour"
+    ],
+    "preview": [
+      {
+        "ID": 14075483,
+        "Case Number": "JK105557",
+        "Date": "2025-12-31",
+        "Block": "050XX S PAULINA ST",
+        "IUCR": 560,
+        "Primary Type": "ASSAULT",
+        "Description": "SIMPLE",
+        "Location Description": "RESIDENCE",
+        "Arrest": false,
+        "Domestic": false,
+        "Beat": 931,
+        "District": 9.0,
+        "Ward": 20.0,
+        "Community Area": 61.0,
+        "FBI Code": "08A",
+        "X Coordinate": 1165860.0,
+        "Y Coordinate": 1871343.0,
+        "Year": 2025,
+        "Updated On": "2026-01-09 15:40:47",
+        "Latitude": 41.802549018,
+        "Longitude": -87.667246428,
+        "Location": "(41.802549018, -87.667246428)",
+        "Time": "23:58:00",
+        "Month": 12,
+        "DayOfWeek": "Wednesday",
+        "Hour": 23
+      },
+      {
+        "ID": 14070833,
+        "Case Number": "JK100050",
+        "Date": "2025-12-31",
+        "Block": "053XX W WASHINGTON BLVD",
+        "IUCR": 930,
+        "Primary Type": "MOTOR VEHICLE THEFT",
+        "Description": "THEFT / RECOVERY - AUTOMOBILE",
+        "Location Description": "APARTMENT",
+        "Arrest": false,
+        "Domestic": true,
+        "Beat": 1522,
+        "District": 15.0,
+        "Ward": 37.0,
+        "Community Area": 25.0,
+        "FBI Code": "07",
+        "X Coordinate": 1140809.0,
+        "Y Coordinate": 1900235.0,
+        "Year": 2025,
+        "Updated On": "2026-01-08 15:46:48",
+        "Latitude": 41.882328854,
+        "Longitude": -87.758411303,
+        "Location": "(41.882328854, -87.758411303)",
+        "Time": "23:55:00",
+        "Month": 12,
+        "DayOfWeek": "Wednesday",
+        "Hour": 23
+      },
+      {
+        "ID": 14070845,
+        "Case Number": "JK100006",
+        "Date": "2025-12-31",
+        "Block": "013XX W LAKE ST",
+        "IUCR": 454,
+        "Primary Type": "BATTERY",
+        "Description": "AGGRAVATED P.O. - HANDS, FISTS, FEET, NO / MINOR INJURY",
+        "Location Description": "RESTAURANT",
+        "Arrest": true,
+        "Domestic": false,
+        "Beat": 1215,
+        "District": 12.0,
+        "Ward": 27.0,
+        "Community Area": 28.0,
+        "FBI Code": "08B",
+        "X Coordinate": 1167120.0,
+        "Y Coordinate": 1901555.0,
+        "Year": 2025,
+        "Updated On": "2026-01-08 15:46:48",
+        "Latitude": 41.885426714,
+        "Longitude": -87.661759042,
+        "Location": "(41.885426714, -87.661759042)",
+        "Time": "23:54:00",
+        "Month": 12,
+        "DayOfWeek": "Wednesday",
+        "Hour": 23
+      }
+    ],
+    "ncols": 26
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/chicago/crime_train_2015_2024.csv",
+    "size_bytes": 638423544,
+    "columns": [
+      "ID",
+      "Case Number",
+      "Date",
+      "Block",
+      "IUCR",
+      "Primary Type",
+      "Description",
+      "Location Description",
+      "Arrest",
+      "Domestic",
+      "Beat",
+      "District",
+      "Ward",
+      "Community Area",
+      "FBI Code",
+      "X Coordinate",
+      "Y Coordinate",
+      "Year",
+      "Updated On",
+      "Latitude",
+      "Longitude",
+      "Location",
+      "Time",
+      "Month",
+      "DayOfWeek",
+      "Hour"
+    ],
+    "preview": [
+      {
+        "ID": 13709672,
+        "Case Number": "JJ101940",
+        "Date": "2024-12-31",
+        "Block": "014XX E 68TH ST",
+        "IUCR": 1310,
+        "Primary Type": "CRIMINAL DAMAGE",
+        "Description": "TO PROPERTY",
+        "Location Description": "APARTMENT",
+        "Arrest": false,
+        "Domestic": false,
+        "Beat": 332,
+        "District": 3.0,
+        "Ward": 5.0,
+        "Community Area": 43.0,
+        "FBI Code": "14",
+        "X Coordinate": 1186817.0,
+        "Y Coordinate": 1860189.0,
+        "Year": 2024,
+        "Updated On": "2025-11-02 15:41:09",
+        "Latitude": 41.771470188,
+        "Longitude": -87.59074212,
+        "Location": "(41.771470188, -87.59074212)",
+        "Time": "23:58:00",
+        "Month": 12,
+        "DayOfWeek": "Tuesday",
+        "Hour": 23
+      },
+      {
+        "ID": 13707925,
+        "Case Number": "JJ100089",
+        "Date": "2024-12-31",
+        "Block": "047XX S DR MARTIN LUTHER KING JR DR",
+        "IUCR": 1365,
+        "Primary Type": "CRIMINAL TRESPASS",
+        "Description": "TO RESIDENCE",
+        "Location Description": "APARTMENT",
+        "Arrest": true,
+        "Domestic": true,
+        "Beat": 223,
+        "District": 2.0,
+        "Ward": 3.0,
+        "Community Area": 38.0,
+        "FBI Code": "26",
+        "X Coordinate": 1179661.0,
+        "Y Coordinate": 1873623.0,
+        "Year": 2024,
+        "Updated On": "2025-05-17 15:40:52",
+        "Latitude": 41.808500903,
+        "Longitude": -87.616562762,
+        "Location": "(41.808500903, -87.616562762)",
+        "Time": "23:56:00",
+        "Month": 12,
+        "DayOfWeek": "Tuesday",
+        "Hour": 23
+      },
+      {
+        "ID": 13708038,
+        "Case Number": "JJ100035",
+        "Date": "2024-12-31",
+        "Block": "077XX S CICERO AVE",
+        "IUCR": 498,
+        "Primary Type": "BATTERY",
+        "Description": "AGG. DOMESTIC BATTERY - HANDS, FISTS, FEET, SERIOUS INJURY",
+        "Location Description": "HOTEL / MOTEL",
+        "Arrest": false,
+        "Domestic": true,
+        "Beat": 834,
+        "District": 8.0,
+        "Ward": 18.0,
+        "Community Area": 70.0,
+        "FBI Code": "04B",
+        "X Coordinate": 1145740.0,
+        "Y Coordinate": 1853048.0,
+        "Year": 2024,
+        "Updated On": "2025-11-02 15:41:09",
+        "Latitude": 41.752748627,
+        "Longitude": -87.741497836,
+        "Location": "(41.752748627, -87.741497836)",
+        "Time": "23:55:00",
+        "Month": 12,
+        "DayOfWeek": "Tuesday",
+        "Hour": 23
+      }
+    ],
+    "ncols": 26
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_ACTIVITY_TYPE.csv",
+    "size_bytes": 478,
+    "columns": [
+      "activity_type_id",
+      "activity_type_code",
+      "activity_type_name"
+    ],
+    "preview": [
+      {
+        "activity_type_id": 1,
+        "activity_type_code": 1,
+        "activity_type_name": "Responding to Disturbance Call"
+      },
+      {
+        "activity_type_id": 2,
+        "activity_type_code": 2,
+        "activity_type_name": "Burglaries in Progress or Pursuing Burglary Suspects"
+      },
+      {
+        "activity_type_id": 3,
+        "activity_type_code": 3,
+        "activity_type_name": "Robberies in Progress or Pursuing Robbery Suspects"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_AGE.csv",
+    "size_bytes": 1993,
+    "columns": [
+      "age_id",
+      "age_code",
+      "age_name"
+    ],
+    "preview": [
+      {
+        "age_id": 1,
+        "age_code": "NN",
+        "age_name": "Under 24 Hours"
+      },
+      {
+        "age_id": 2,
+        "age_code": "NB",
+        "age_name": "1-6 Days Old"
+      },
+      {
+        "age_id": 3,
+        "age_code": "BB",
+        "age_name": "7-364 Days Old"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_ARRESTEE.csv",
+    "size_bytes": 24738261,
+    "columns": [
+      "data_year",
+      "arrestee_id",
+      "incident_id",
+      "arrestee_seq_num",
+      "arrest_date",
+      "arrest_type_id",
+      "multiple_indicator",
+      "offense_code",
+      "age_id",
+      "age_num",
+      "sex_code",
+      "race_id",
+      "ethnicity_id",
+      "resident_code",
+      "under_18_disposition_code",
+      "clearance_ind",
+      "age_range_low_num",
+      "age_range_high_num"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "arrestee_id": 56488775,
+        "incident_id": 185618101,
+        "arrestee_seq_num": 1,
+        "arrest_date": "2024-01-01",
+        "arrest_type_id": 1,
+        "multiple_indicator": "N",
+        "offense_code": "520",
+        "age_id": 36,
+        "age_num": 33,
+        "sex_code": "M",
+        "race_id": 10,
+        "ethnicity_id": 10,
+        "resident_code": "U",
+        "under_18_disposition_code": NaN,
+        "clearance_ind": NaN,
+        "age_range_low_num": 33,
+        "age_range_high_num": NaN
+      },
+      {
+        "data_year": 2024,
+        "arrestee_id": 57055028,
+        "incident_id": 187487274,
+        "arrestee_seq_num": 1,
+        "arrest_date": "2024-01-01",
+        "arrest_type_id": 1,
+        "multiple_indicator": "N",
+        "offense_code": "240",
+        "age_id": 22,
+        "age_num": 19,
+        "sex_code": "M",
+        "race_id": 20,
+        "ethnicity_id": 40,
+        "resident_code": "U",
+        "under_18_disposition_code": NaN,
+        "clearance_ind": NaN,
+        "age_range_low_num": 19,
+        "age_range_high_num": NaN
+      },
+      {
+        "data_year": 2024,
+        "arrestee_id": 56488777,
+        "incident_id": 185618105,
+        "arrestee_seq_num": 1,
+        "arrest_date": "2024-01-01",
+        "arrest_type_id": 1,
+        "multiple_indicator": "N",
+        "offense_code": "13A",
+        "age_id": 42,
+        "age_num": 39,
+        "sex_code": "M",
+        "race_id": 20,
+        "ethnicity_id": 20,
+        "resident_code": "U",
+        "under_18_disposition_code": NaN,
+        "clearance_ind": NaN,
+        "age_range_low_num": 39,
+        "age_range_high_num": NaN
+      }
+    ],
+    "ncols": 18
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_ARRESTEE_GROUPB.csv",
+    "size_bytes": 13266520,
+    "columns": [
+      "data_year",
+      "groupb_arrestee_id",
+      "arrestee_seq_num",
+      "arrest_date",
+      "arrest_type_id",
+      "offense_code",
+      "age_id",
+      "age_num",
+      "sex_code",
+      "race_id",
+      "ethnicity_id",
+      "resident_code",
+      "under_18_disposition_code",
+      "age_range_low_num",
+      "age_range_high_num"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "groupb_arrestee_id": 53329647,
+        "arrestee_seq_num": 1,
+        "arrest_date": "2024-01-21",
+        "arrest_type_id": 1,
+        "offense_code": "90C",
+        "age_id": 34,
+        "age_num": 31,
+        "sex_code": "M",
+        "race_id": 10,
+        "ethnicity_id": 20,
+        "resident_code": "U",
+        "under_18_disposition_code": NaN,
+        "age_range_low_num": NaN,
+        "age_range_high_num": NaN
+      },
+      {
+        "data_year": 2024,
+        "groupb_arrestee_id": 53329648,
+        "arrestee_seq_num": 1,
+        "arrest_date": "2024-01-21",
+        "arrest_type_id": 1,
+        "offense_code": "90C",
+        "age_id": 34,
+        "age_num": 31,
+        "sex_code": "M",
+        "race_id": 10,
+        "ethnicity_id": 20,
+        "resident_code": "U",
+        "under_18_disposition_code": NaN,
+        "age_range_low_num": NaN,
+        "age_range_high_num": NaN
+      },
+      {
+        "data_year": 2024,
+        "groupb_arrestee_id": 52333456,
+        "arrestee_seq_num": 1,
+        "arrest_date": "2024-01-03",
+        "arrest_type_id": 1,
+        "offense_code": "90D",
+        "age_id": 59,
+        "age_num": 56,
+        "sex_code": "M",
+        "race_id": 10,
+        "ethnicity_id": 40,
+        "resident_code": "U",
+        "under_18_disposition_code": NaN,
+        "age_range_low_num": NaN,
+        "age_range_high_num": NaN
+      }
+    ],
+    "ncols": 15
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_ARRESTEE_GROUPB_WEAPON.csv",
+    "size_bytes": 4983634,
+    "columns": [
+      "data_year",
+      "groupb_arrestee_id",
+      "weapon_code",
+      "weapon_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "groupb_arrestee_id": 53329647,
+        "weapon_code": 1,
+        "weapon_id": 51
+      },
+      {
+        "data_year": 2024,
+        "groupb_arrestee_id": 53329648,
+        "weapon_code": 1,
+        "weapon_id": 51
+      },
+      {
+        "data_year": 2024,
+        "groupb_arrestee_id": 52333456,
+        "weapon_code": 1,
+        "weapon_id": 51
+      }
+    ],
+    "ncols": 4
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_ARRESTEE_WEAPON.csv",
+    "size_bytes": 6657433,
+    "columns": [
+      "data_year",
+      "arrestee_id",
+      "nibrs_arrestee_weapon_id",
+      "weapon_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "arrestee_id": 56488775,
+        "nibrs_arrestee_weapon_id": NaN,
+        "weapon_id": 52
+      },
+      {
+        "data_year": 2024,
+        "arrestee_id": 57055028,
+        "nibrs_arrestee_weapon_id": NaN,
+        "weapon_id": 51
+      },
+      {
+        "data_year": 2024,
+        "arrestee_id": 56488777,
+        "nibrs_arrestee_weapon_id": NaN,
+        "weapon_id": 51
+      }
+    ],
+    "ncols": 4
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_ARREST_TYPE.csv",
+    "size_bytes": 105,
+    "columns": [
+      "arrest_type_id",
+      "arrest_type_code",
+      "arrest_type_name"
+    ],
+    "preview": [
+      {
+        "arrest_type_id": 1,
+        "arrest_type_code": "O",
+        "arrest_type_name": "On View"
+      },
+      {
+        "arrest_type_id": 2,
+        "arrest_type_code": "S",
+        "arrest_type_name": "Summoned / Cited"
+      },
+      {
+        "arrest_type_id": 3,
+        "arrest_type_code": "T",
+        "arrest_type_name": "Taken INTO Custody"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_ASSIGNMENT_TYPE.csv",
+    "size_bytes": 266,
+    "columns": [
+      "assignment_type_id",
+      "assignment_type_code",
+      "assignment_type_name"
+    ],
+    "preview": [
+      {
+        "assignment_type_id": 1,
+        "assignment_type_code": "F",
+        "assignment_type_name": "Two-Officer Vehicle"
+      },
+      {
+        "assignment_type_id": 2,
+        "assignment_type_code": "G",
+        "assignment_type_name": "One-Officer (Alone)"
+      },
+      {
+        "assignment_type_id": 3,
+        "assignment_type_code": "H",
+        "assignment_type_name": "One-Officer (Assisted)"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_BIAS_LIST.csv",
+    "size_bytes": 1623,
+    "columns": [
+      "bias_id",
+      "bias_code",
+      "bias_category",
+      "bias_desc"
+    ],
+    "preview": [
+      {
+        "bias_id": 11,
+        "bias_code": 11,
+        "bias_category": "Race/Ethnicity/Ancestry",
+        "bias_desc": "Anti-White"
+      },
+      {
+        "bias_id": 12,
+        "bias_code": 12,
+        "bias_category": "Race/Ethnicity/Ancestry",
+        "bias_desc": "Anti-Black or African American"
+      },
+      {
+        "bias_id": 13,
+        "bias_code": 13,
+        "bias_category": "Race/Ethnicity/Ancestry",
+        "bias_desc": "Anti-American Indian or Alaska Native"
+      }
+    ],
+    "ncols": 4
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_BIAS_MOTIVATION.csv",
+    "size_bytes": 24653639,
+    "columns": [
+      "data_year",
+      "bias_id",
+      "offense_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "bias_id": 88,
+        "offense_id": 226036771
+      },
+      {
+        "data_year": 2024,
+        "bias_id": 88,
+        "offense_id": 220713974
+      },
+      {
+        "data_year": 2024,
+        "bias_id": 88,
+        "offense_id": 222869305
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_CIRCUMSTANCES.csv",
+    "size_bytes": 556,
+    "columns": [
+      "circumstances_id",
+      "circumstance_type",
+      "circumstance_code",
+      "circumstance_name"
+    ],
+    "preview": [
+      {
+        "circumstances_id": 1,
+        "circumstance_type": "A",
+        "circumstance_code": 1,
+        "circumstance_name": "Argument"
+      },
+      {
+        "circumstances_id": 2,
+        "circumstance_type": "A",
+        "circumstance_code": 2,
+        "circumstance_name": "Assault on Law Enforcement Officer"
+      },
+      {
+        "circumstances_id": 3,
+        "circumstance_type": "A",
+        "circumstance_code": 3,
+        "circumstance_name": "Drug Dealing"
+      }
+    ],
+    "ncols": 4
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_CLEARED_EXCEPT.csv",
+    "size_bytes": 691,
+    "columns": [
+      "cleared_except_id",
+      "cleared_except_code",
+      "cleared_except_name",
+      "cleared_except_desc"
+    ],
+    "preview": [
+      {
+        "cleared_except_id": 1,
+        "cleared_except_code": "A",
+        "cleared_except_name": "Death of Offender",
+        "cleared_except_desc": "Death of Offender"
+      },
+      {
+        "cleared_except_id": 2,
+        "cleared_except_code": "B",
+        "cleared_except_name": "Prosecution Declined",
+        "cleared_except_desc": "Prosecution Declined (by the prosecutor for a reason other than lack of probable cause)"
+      },
+      {
+        "cleared_except_id": 3,
+        "cleared_except_code": "C",
+        "cleared_except_name": "In Custody of Other Jurisdiction",
+        "cleared_except_desc": "In Custody of Other Jurisdiction"
+      }
+    ],
+    "ncols": 4
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_CRIMINAL_ACT.csv",
+    "size_bytes": 7087704,
+    "columns": [
+      "data_year",
+      "criminal_act_id",
+      "offense_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "criminal_act_id": 6,
+        "offense_id": 226036771
+      },
+      {
+        "data_year": 2024,
+        "criminal_act_id": 6,
+        "offense_id": 220713974
+      },
+      {
+        "data_year": 2024,
+        "criminal_act_id": 6,
+        "offense_id": 222869306
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_CRIMINAL_ACT_TYPE.csv",
+    "size_bytes": 1128,
+    "columns": [
+      "criminal_act_id",
+      "criminal_act_code",
+      "criminal_act_name",
+      "criminal_act_desc"
+    ],
+    "preview": [
+      {
+        "criminal_act_id": 1,
+        "criminal_act_code": "B",
+        "criminal_act_name": "Buying/Receiving",
+        "criminal_act_desc": "Buying/Receiving"
+      },
+      {
+        "criminal_act_id": 2,
+        "criminal_act_code": "C",
+        "criminal_act_name": "Cultivating/Manufacturing/Publishing",
+        "criminal_act_desc": "Cultivating/Manufacturing/Publishing (i.e., production of any type)"
+      },
+      {
+        "criminal_act_id": 3,
+        "criminal_act_code": "D",
+        "criminal_act_name": "Distributing/Selling",
+        "criminal_act_desc": "Distributing/Selling"
+      }
+    ],
+    "ncols": 4
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_DRUG_MEASURE_TYPE.csv",
+    "size_bytes": 218,
+    "columns": [
+      "drug_measure_type_id",
+      "drug_measure_code",
+      "drug_measure_name"
+    ],
+    "preview": [
+      {
+        "drug_measure_type_id": 1,
+        "drug_measure_code": "GM",
+        "drug_measure_name": "Gram"
+      },
+      {
+        "drug_measure_type_id": 2,
+        "drug_measure_code": "KG",
+        "drug_measure_name": "Kilogram"
+      },
+      {
+        "drug_measure_type_id": 3,
+        "drug_measure_code": "OZ",
+        "drug_measure_name": "Ounce"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_ETHNICITY.csv",
+    "size_bytes": 141,
+    "columns": [
+      "ethnicity_id",
+      "ethnicity_code",
+      "ethnicity_name"
+    ],
+    "preview": [
+      {
+        "ethnicity_id": 10,
+        "ethnicity_code": "H",
+        "ethnicity_name": "Hispanic or Latino"
+      },
+      {
+        "ethnicity_id": 20,
+        "ethnicity_code": "N",
+        "ethnicity_name": "Not Hispanic or Latino"
+      },
+      {
+        "ethnicity_id": 30,
+        "ethnicity_code": "M",
+        "ethnicity_name": "Multiple"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_INJURY.csv",
+    "size_bytes": 212,
+    "columns": [
+      "injury_id",
+      "injury_code",
+      "injury_name"
+    ],
+    "preview": [
+      {
+        "injury_id": 1,
+        "injury_code": "B",
+        "injury_name": "Apparent Broken Bones"
+      },
+      {
+        "injury_id": 2,
+        "injury_code": "I",
+        "injury_name": "Possible Internal Injury"
+      },
+      {
+        "injury_id": 3,
+        "injury_code": "L",
+        "injury_name": "Severe Laceration"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_JUSTIFIABLE_FORCE.csv",
+    "size_bytes": 435,
+    "columns": [
+      "justifiable_fore_id",
+      "justifiable_force_code",
+      "justifiable_force_name"
+    ],
+    "preview": [
+      {
+        "justifiable_fore_id": 1,
+        "justifiable_force_code": "A",
+        "justifiable_force_name": "Criminal Attacked Police Officer and That Officer Killed Criminal"
+      },
+      {
+        "justifiable_fore_id": 2,
+        "justifiable_force_code": "B",
+        "justifiable_force_name": "Criminal Attacked Fellow Police Officer and Criminal Killed by Anouther Police Officer"
+      },
+      {
+        "justifiable_fore_id": 4,
+        "justifiable_force_code": "D",
+        "justifiable_force_name": "Criminal Attempted Flight From a Crime"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_LOCATION_TYPE.csv",
+    "size_bytes": 1314,
+    "columns": [
+      "location_id",
+      "location_code",
+      "location_name"
+    ],
+    "preview": [
+      {
+        "location_id": 1,
+        "location_code": 37,
+        "location_name": "Abandoned/Condemned Structure"
+      },
+      {
+        "location_id": 2,
+        "location_code": 1,
+        "location_name": "Air/Bus/Train Terminal"
+      },
+      {
+        "location_id": 3,
+        "location_code": 38,
+        "location_name": "Amusement Park"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_OFFENDER.csv",
+    "size_bytes": 60353732,
+    "columns": [
+      "data_year",
+      "offender_id",
+      "incident_id",
+      "offender_seq_num",
+      "age_id",
+      "age_num",
+      "sex_code",
+      "race_id",
+      "ethnicity_id",
+      "age_range_low_num",
+      "age_range_high_num"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "offender_id": 216455996,
+        "incident_id": 190226279,
+        "offender_seq_num": 1,
+        "age_id": 22,
+        "age_num": 19,
+        "sex_code": "M",
+        "race_id": 10,
+        "ethnicity_id": 10,
+        "age_range_low_num": 19,
+        "age_range_high_num": NaN
+      },
+      {
+        "data_year": 2024,
+        "offender_id": 211204264,
+        "incident_id": 185618101,
+        "offender_seq_num": 1,
+        "age_id": 36,
+        "age_num": 33,
+        "sex_code": "M",
+        "race_id": 10,
+        "ethnicity_id": 10,
+        "age_range_low_num": 33,
+        "age_range_high_num": NaN
+      },
+      {
+        "data_year": 2024,
+        "offender_id": 213331030,
+        "incident_id": 187487274,
+        "offender_seq_num": 1,
+        "age_id": 22,
+        "age_num": 19,
+        "sex_code": "M",
+        "race_id": 20,
+        "ethnicity_id": 20,
+        "age_range_low_num": 19,
+        "age_range_high_num": NaN
+      }
+    ],
+    "ncols": 11
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_OFFENSE.csv",
+    "size_bytes": 49353321,
+    "columns": [
+      "data_year",
+      "offense_id",
+      "incident_id",
+      "offense_code",
+      "attempt_complete_flag",
+      "location_id",
+      "num_premises_entered",
+      "method_entry_code"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "offense_id": 226036771,
+        "incident_id": 190226279,
+        "offense_code": "35A",
+        "attempt_complete_flag": "C",
+        "location_id": 28,
+        "num_premises_entered": NaN,
+        "method_entry_code": NaN
+      },
+      {
+        "data_year": 2024,
+        "offense_id": 220713974,
+        "incident_id": 185618101,
+        "offense_code": "520",
+        "attempt_complete_flag": "C",
+        "location_id": 2,
+        "num_premises_entered": NaN,
+        "method_entry_code": NaN
+      },
+      {
+        "data_year": 2024,
+        "offense_id": 222869305,
+        "incident_id": 187487274,
+        "offense_code": "240",
+        "attempt_complete_flag": "A",
+        "location_id": 25,
+        "num_premises_entered": NaN,
+        "method_entry_code": NaN
+      }
+    ],
+    "ncols": 8
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_OFFENSE_TYPE.csv",
+    "size_bytes": 5428,
+    "columns": [
+      "offense_code",
+      "offense_name",
+      "crime_against",
+      "ct_flag",
+      "hc_flag",
+      "hc_code",
+      "offense_category_name",
+      "offense_group"
+    ],
+    "preview": [
+      {
+        "offense_code": "09C",
+        "offense_name": "Justifiable Homicide",
+        "crime_against": "Person",
+        "ct_flag": "f",
+        "hc_flag": "f",
+        "hc_code": "  ",
+        "offense_category_name": "Homicide Offenses",
+        "offense_group": "A"
+      },
+      {
+        "offense_code": "09A",
+        "offense_name": "Murder and Nonnegligent Manslaughter",
+        "crime_against": "Person",
+        "ct_flag": "f",
+        "hc_flag": "t",
+        "hc_code": "01",
+        "offense_category_name": "Homicide Offenses",
+        "offense_group": "A"
+      },
+      {
+        "offense_code": "09B",
+        "offense_name": "Negligent Manslaughter",
+        "crime_against": "Person",
+        "ct_flag": "f",
+        "hc_flag": "t",
+        "hc_code": "  ",
+        "offense_category_name": "Homicide Offenses",
+        "offense_group": "A"
+      }
+    ],
+    "ncols": 8
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_PROPERTY.csv",
+    "size_bytes": 31186487,
+    "columns": [
+      "data_year",
+      "property_id",
+      "incident_id",
+      "prop_loss_id",
+      "stolen_count",
+      "recovered_count"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "property_id": 183933144,
+        "incident_id": 190226279,
+        "prop_loss_id": 6,
+        "stolen_count": NaN,
+        "recovered_count": NaN
+      },
+      {
+        "data_year": 2024,
+        "property_id": 181593335,
+        "incident_id": 187487274,
+        "prop_loss_id": 1,
+        "stolen_count": NaN,
+        "recovered_count": NaN
+      },
+      {
+        "data_year": 2024,
+        "property_id": 179976880,
+        "incident_id": 185618111,
+        "prop_loss_id": 1,
+        "stolen_count": NaN,
+        "recovered_count": NaN
+      }
+    ],
+    "ncols": 6
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_PROPERTY_DESC.csv",
+    "size_bytes": 30912729,
+    "columns": [
+      "data_year",
+      "property_id",
+      "prop_desc_id",
+      "property_value",
+      "date_recovered",
+      "nibrs_prop_desc_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "property_id": 183933144,
+        "prop_desc_id": 10,
+        "property_value": NaN,
+        "date_recovered": NaN,
+        "nibrs_prop_desc_id": NaN
+      },
+      {
+        "data_year": 2024,
+        "property_id": 179976882,
+        "prop_desc_id": 11,
+        "property_value": 1.0,
+        "date_recovered": NaN,
+        "nibrs_prop_desc_id": NaN
+      },
+      {
+        "data_year": 2024,
+        "property_id": 179976888,
+        "prop_desc_id": 36,
+        "property_value": 9750.0,
+        "date_recovered": NaN,
+        "nibrs_prop_desc_id": NaN
+      }
+    ],
+    "ncols": 6
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_PROP_DESC_TYPE.csv",
+    "size_bytes": 1696,
+    "columns": [
+      "prop_desc_id",
+      "prop_desc_name",
+      "prop_desc_code"
+    ],
+    "preview": [
+      {
+        "prop_desc_id": 1,
+        "prop_desc_name": "Aircraft",
+        "prop_desc_code": 1
+      },
+      {
+        "prop_desc_id": 2,
+        "prop_desc_name": "Alcohol",
+        "prop_desc_code": 2
+      },
+      {
+        "prop_desc_id": 3,
+        "prop_desc_name": "Automobile",
+        "prop_desc_code": 3
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_PROP_LOSS_TYPE.csv",
+    "size_bytes": 480,
+    "columns": [
+      "prop_loss_id",
+      "prop_loss_name",
+      "prop_loss_desc"
+    ],
+    "preview": [
+      {
+        "prop_loss_id": 1,
+        "prop_loss_name": "None",
+        "prop_loss_desc": "None"
+      },
+      {
+        "prop_loss_id": 2,
+        "prop_loss_name": "Burned",
+        "prop_loss_desc": "Burned (includes damage caused in fighting the fire)"
+      },
+      {
+        "prop_loss_id": 3,
+        "prop_loss_name": "Counterfeited/Forged",
+        "prop_loss_desc": "Counterfeited/Forged"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_RELATIONSHIP.csv",
+    "size_bytes": 958,
+    "columns": [
+      "relationship_id",
+      "relationship_code",
+      "relationship_name"
+    ],
+    "preview": [
+      {
+        "relationship_id": 1,
+        "relationship_code": "AQ",
+        "relationship_name": "Victim Was Acquaintance"
+      },
+      {
+        "relationship_id": 2,
+        "relationship_code": "BE",
+        "relationship_name": "Victim Was Babysittee"
+      },
+      {
+        "relationship_id": 3,
+        "relationship_code": "BG",
+        "relationship_name": "Victim Was Boyfriend/Girlfriend"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_SUSPECTED_DRUG.csv",
+    "size_bytes": 3216682,
+    "columns": [
+      "data_year",
+      "suspected_drug_type_id",
+      "property_id",
+      "est_drug_qty",
+      "drug_measure_type_id",
+      "nibrs_suspected_drug_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "suspected_drug_type_id": 16,
+        "property_id": 183933144,
+        "est_drug_qty": 2.0,
+        "drug_measure_type_id": 1,
+        "nibrs_suspected_drug_id": 17688695
+      },
+      {
+        "data_year": 2024,
+        "suspected_drug_type_id": 12,
+        "property_id": 179976910,
+        "est_drug_qty": 0.9,
+        "drug_measure_type_id": 1,
+        "nibrs_suspected_drug_id": 17098075
+      },
+      {
+        "data_year": 2024,
+        "suspected_drug_type_id": 1,
+        "property_id": 182836730,
+        "est_drug_qty": 0.9,
+        "drug_measure_type_id": 1,
+        "nibrs_suspected_drug_id": 17523010
+      }
+    ],
+    "ncols": 6
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_SUSPECTED_DRUG_TYPE.csv",
+    "size_bytes": 354,
+    "columns": [
+      "suspected_drug_type_id",
+      "suspected_drug_code",
+      "suspected_drug_name"
+    ],
+    "preview": [
+      {
+        "suspected_drug_type_id": 1,
+        "suspected_drug_code": "A",
+        "suspected_drug_name": "Crack Cocaine"
+      },
+      {
+        "suspected_drug_type_id": 2,
+        "suspected_drug_code": "B",
+        "suspected_drug_name": "Cocaine"
+      },
+      {
+        "suspected_drug_type_id": 3,
+        "suspected_drug_code": "C",
+        "suspected_drug_name": "Hashish"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_SUSPECT_USING.csv",
+    "size_bytes": 23371808,
+    "columns": [
+      "data_year",
+      "suspect_using_id",
+      "offense_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "suspect_using_id": 4,
+        "offense_id": 226036771
+      },
+      {
+        "data_year": 2024,
+        "suspect_using_id": 4,
+        "offense_id": 220713974
+      },
+      {
+        "data_year": 2024,
+        "suspect_using_id": 2,
+        "offense_id": 222869305
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_USING_LIST.csv",
+    "size_bytes": 183,
+    "columns": [
+      "suspect_using_id",
+      "suspect_using_code",
+      "suspect_using_name"
+    ],
+    "preview": [
+      {
+        "suspect_using_id": 1,
+        "suspect_using_code": "A",
+        "suspect_using_name": "Alcohol"
+      },
+      {
+        "suspect_using_id": 2,
+        "suspect_using_code": "C",
+        "suspect_using_name": "Computer Equipment (Handheld Devices)"
+      },
+      {
+        "suspect_using_id": 3,
+        "suspect_using_code": "D",
+        "suspect_using_name": "Drugs/Narcotics"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_VICTIM.csv",
+    "size_bytes": 69770252,
+    "columns": [
+      "data_year",
+      "victim_id",
+      "incident_id",
+      "victim_seq_num",
+      "victim_type_id",
+      "assignment_type_id",
+      "activity_type_id",
+      "outside_agency_id",
+      "age_id",
+      "age_num",
+      "sex_code",
+      "race_id",
+      "ethnicity_id",
+      "resident_status_code",
+      "age_range_low_num",
+      "age_code_range_high"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "victim_id": 211571444,
+        "incident_id": 190226279,
+        "victim_seq_num": 1,
+        "victim_type_id": 8,
+        "assignment_type_id": NaN,
+        "activity_type_id": NaN,
+        "outside_agency_id": NaN,
+        "age_id": 104,
+        "age_num": "NS",
+        "sex_code": "X",
+        "race_id": 99,
+        "ethnicity_id": 50,
+        "resident_status_code": NaN,
+        "age_range_low_num": NaN,
+        "age_code_range_high": NaN
+      },
+      {
+        "data_year": 2024,
+        "victim_id": 206775798,
+        "incident_id": 186056807,
+        "victim_seq_num": 1,
+        "victim_type_id": 1,
+        "assignment_type_id": NaN,
+        "activity_type_id": NaN,
+        "outside_agency_id": NaN,
+        "age_id": 104,
+        "age_num": "NS",
+        "sex_code": "X",
+        "race_id": 99,
+        "ethnicity_id": 50,
+        "resident_status_code": NaN,
+        "age_range_low_num": NaN,
+        "age_code_range_high": NaN
+      },
+      {
+        "data_year": 2024,
+        "victim_id": 210441858,
+        "incident_id": 189249900,
+        "victim_seq_num": 1,
+        "victim_type_id": 3,
+        "assignment_type_id": NaN,
+        "activity_type_id": NaN,
+        "outside_agency_id": NaN,
+        "age_id": 104,
+        "age_num": "NS",
+        "sex_code": "X",
+        "race_id": 99,
+        "ethnicity_id": 50,
+        "resident_status_code": NaN,
+        "age_range_low_num": NaN,
+        "age_code_range_high": NaN
+      }
+    ],
+    "ncols": 16
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_VICTIM_CIRCUMSTANCES.csv",
+    "size_bytes": 618,
+    "columns": [
+      "data_year",
+      "victim_id",
+      "circumstances_id",
+      "justifiable_force_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "victim_id": 225893525,
+        "circumstances_id": 21,
+        "justifiable_force_id": 1
+      },
+      {
+        "data_year": 2024,
+        "victim_id": 225943272,
+        "circumstances_id": 21,
+        "justifiable_force_id": 1
+      },
+      {
+        "data_year": 2024,
+        "victim_id": 215367062,
+        "circumstances_id": 21,
+        "justifiable_force_id": 1
+      }
+    ],
+    "ncols": 4
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_VICTIM_INJURY.csv",
+    "size_bytes": 5914075,
+    "columns": [
+      "data_year",
+      "victim_id",
+      "injury_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "victim_id": 206270806,
+        "injury_id": 5
+      },
+      {
+        "data_year": 2024,
+        "victim_id": 206270807,
+        "injury_id": 6
+      },
+      {
+        "data_year": 2024,
+        "victim_id": 206270809,
+        "injury_id": 5
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_VICTIM_OFFENDER_REL.csv",
+    "size_bytes": 19574012,
+    "columns": [
+      "data_year",
+      "victim_id",
+      "offender_id",
+      "relationship_id",
+      "nibrs_victim_offender_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "victim_id": 208416070,
+        "offender_id": 213331030,
+        "relationship_id": 18,
+        "nibrs_victim_offender_id": NaN
+      },
+      {
+        "data_year": 2024,
+        "victim_id": 208416070,
+        "offender_id": 213331031,
+        "relationship_id": 18,
+        "nibrs_victim_offender_id": NaN
+      },
+      {
+        "data_year": 2024,
+        "victim_id": 206270806,
+        "offender_id": 211204270,
+        "relationship_id": 21,
+        "nibrs_victim_offender_id": NaN
+      }
+    ],
+    "ncols": 5
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_VICTIM_OFFENSE.csv",
+    "size_bytes": 37411656,
+    "columns": [
+      "data_year",
+      "victim_id",
+      "offense_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "victim_id": 211571444,
+        "offense_id": 226036771
+      },
+      {
+        "data_year": 2024,
+        "victim_id": 206270801,
+        "offense_id": 220713974
+      },
+      {
+        "data_year": 2024,
+        "victim_id": 208416070,
+        "offense_id": 222869305
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_VICTIM_TYPE.csv",
+    "size_bytes": 214,
+    "columns": [
+      "victim_type_id",
+      "victim_type_code",
+      "victim_type_name"
+    ],
+    "preview": [
+      {
+        "victim_type_id": 1,
+        "victim_type_code": "B",
+        "victim_type_name": "Business"
+      },
+      {
+        "victim_type_id": 2,
+        "victim_type_code": "F",
+        "victim_type_name": "Financial Institution"
+      },
+      {
+        "victim_type_id": 3,
+        "victim_type_code": "G",
+        "victim_type_name": "Government"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_WEAPON.csv",
+    "size_bytes": 6706676,
+    "columns": [
+      "data_year",
+      "weapon_id",
+      "offense_id",
+      "nibrs_weapon_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "weapon_id": 21,
+        "offense_id": 220713974,
+        "nibrs_weapon_id": NaN
+      },
+      {
+        "data_year": 2024,
+        "weapon_id": 5,
+        "offense_id": 222869306,
+        "nibrs_weapon_id": NaN
+      },
+      {
+        "data_year": 2024,
+        "weapon_id": 31,
+        "offense_id": 220713979,
+        "nibrs_weapon_id": NaN
+      }
+    ],
+    "ncols": 4
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_WEAPON_TYPE.csv",
+    "size_bytes": 957,
+    "columns": [
+      "weapon_id",
+      "weapon_code",
+      "weapon_name",
+      "shr_flag"
+    ],
+    "preview": [
+      {
+        "weapon_id": 21,
+        "weapon_code": 20,
+        "weapon_name": "Knife/Cutting Instrument",
+        "shr_flag": "t"
+      },
+      {
+        "weapon_id": 31,
+        "weapon_code": 30,
+        "weapon_name": "Blunt Object",
+        "shr_flag": "t"
+      },
+      {
+        "weapon_id": 32,
+        "weapon_code": 35,
+        "weapon_name": "Motor Vehicle/Vessel",
+        "shr_flag": "f"
+      }
+    ],
+    "ncols": 4
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_incident.csv",
+    "size_bytes": 113626046,
+    "columns": [
+      "data_year",
+      "agency_id",
+      "incident_id",
+      "nibrs_month_id",
+      "cargo_theft_flag",
+      "submission_date",
+      "incident_date",
+      "report_date_flag",
+      "incident_hour",
+      "cleared_except_id",
+      "cleared_except_date",
+      "incident_status",
+      "data_home",
+      "orig_format",
+      "did"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "agency_id": 937,
+        "incident_id": 190226279,
+        "nibrs_month_id": 44856163,
+        "cargo_theft_flag": "f",
+        "submission_date": "2024-05-02 20:04:52.306",
+        "incident_date": "2024-03-05",
+        "report_date_flag": "f",
+        "incident_hour": 14,
+        "cleared_except_id": 6,
+        "cleared_except_date": NaN,
+        "incident_status": "ACCEPTED",
+        "data_home": NaN,
+        "orig_format": "X",
+        "did": 246196887
+      },
+      {
+        "data_year": 2024,
+        "agency_id": 937,
+        "incident_id": 185618101,
+        "nibrs_month_id": 44732720,
+        "cargo_theft_flag": "f",
+        "submission_date": "2024-02-08 04:53:04.531",
+        "incident_date": "2024-01-01",
+        "report_date_flag": "f",
+        "incident_hour": 5,
+        "cleared_except_id": 6,
+        "cleared_except_date": NaN,
+        "incident_status": "ACCEPTED",
+        "data_home": NaN,
+        "orig_format": "X",
+        "did": 231242773
+      },
+      {
+        "data_year": 2024,
+        "agency_id": 937,
+        "incident_id": 187487274,
+        "nibrs_month_id": 44732720,
+        "cargo_theft_flag": "f",
+        "submission_date": "2024-03-11 01:20:17.253",
+        "incident_date": "2024-01-01",
+        "report_date_flag": "f",
+        "incident_hour": 5,
+        "cleared_except_id": 6,
+        "cleared_except_date": NaN,
+        "incident_status": "WARNINGS",
+        "data_home": NaN,
+        "orig_format": "X",
+        "did": 237181432
+      }
+    ],
+    "ncols": 15
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/NIBRS_month.csv",
+    "size_bytes": 91075148,
+    "columns": [
+      "data_year",
+      "nibrs_month_id",
+      "agency_id",
+      "month_num",
+      "inc_data_year",
+      "reported_status",
+      "report_date",
+      "update_flag",
+      "orig_format",
+      "data_home",
+      "ddocname",
+      "did",
+      "month_pub_status"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "nibrs_month_id": 44856163,
+        "agency_id": 937,
+        "month_num": 3,
+        "inc_data_year": 2024,
+        "reported_status": "I",
+        "report_date": NaN,
+        "update_flag": NaN,
+        "orig_format": "X",
+        "data_home": NaN,
+        "ddocname": "2024_03_CA0010000_23-019019_INC",
+        "did": 246196887,
+        "month_pub_status": NaN
+      },
+      {
+        "data_year": 2024,
+        "nibrs_month_id": 44736506,
+        "agency_id": 995,
+        "month_num": 1,
+        "inc_data_year": 2024,
+        "reported_status": "R",
+        "report_date": NaN,
+        "update_flag": NaN,
+        "orig_format": "X",
+        "data_home": NaN,
+        "ddocname": "2024_01_CA0060200_24-10_INC",
+        "did": 232660558,
+        "month_pub_status": NaN
+      },
+      {
+        "data_year": 2024,
+        "nibrs_month_id": 44760501,
+        "agency_id": 995,
+        "month_num": 2,
+        "inc_data_year": 2024,
+        "reported_status": "R",
+        "report_date": NaN,
+        "update_flag": NaN,
+        "orig_format": "X",
+        "data_home": NaN,
+        "ddocname": "2024_02_CA0060200_24-102_INC",
+        "did": 243186440,
+        "month_pub_status": NaN
+      }
+    ],
+    "ncols": 13
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/REF_RACE.csv",
+    "size_bytes": 661,
+    "columns": [
+      "race_id",
+      "race_code",
+      "race_desc",
+      "sort_order",
+      "start_year",
+      "end_year",
+      "notes"
+    ],
+    "preview": [
+      {
+        "race_id": 98,
+        "race_code": "U",
+        "race_desc": "Unknown",
+        "sort_order": 98,
+        "start_year": NaN,
+        "end_year": NaN,
+        "notes": "Race is explicitly unknown"
+      },
+      {
+        "race_id": 10,
+        "race_code": "W",
+        "race_desc": "White",
+        "sort_order": 10,
+        "start_year": NaN,
+        "end_year": NaN,
+        "notes": NaN
+      },
+      {
+        "race_id": 20,
+        "race_code": "B",
+        "race_desc": "Black or African American",
+        "sort_order": 20,
+        "start_year": NaN,
+        "end_year": NaN,
+        "notes": NaN
+      }
+    ],
+    "ncols": 7
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/REF_STATE.csv",
+    "size_bytes": 1945,
+    "columns": [
+      "state_id",
+      "division_id",
+      "state_name",
+      "state_code",
+      "state_abbr",
+      "state_postal_abbr",
+      "state_fips_code",
+      "state_pub_freq_months",
+      "change_user"
+    ],
+    "preview": [
+      {
+        "state_id": 1,
+        "division_id": 10,
+        "state_name": "Alaska",
+        "state_code": 50,
+        "state_abbr": "AK",
+        "state_postal_abbr": "AK",
+        "state_fips_code": 2,
+        "state_pub_freq_months": 12,
+        "change_user": NaN
+      },
+      {
+        "state_id": 2,
+        "division_id": 7,
+        "state_name": "Alabama",
+        "state_code": 1,
+        "state_abbr": "AL",
+        "state_postal_abbr": "AL",
+        "state_fips_code": 1,
+        "state_pub_freq_months": 12,
+        "change_user": NaN
+      },
+      {
+        "state_id": 3,
+        "division_id": 8,
+        "state_name": "Arkansas",
+        "state_code": 3,
+        "state_abbr": "AR",
+        "state_postal_abbr": "AR",
+        "state_fips_code": 5,
+        "state_pub_freq_months": 12,
+        "change_user": NaN
+      }
+    ],
+    "ncols": 9
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_ca_2024/CA-2024/agencies.csv",
+    "size_bytes": 288336,
+    "columns": [
+      "yearly_agency_id",
+      "agency_id",
+      "data_year",
+      "ori",
+      "legacy_ori",
+      "covered_by_legacy_ori",
+      "direct_contributor_flag",
+      "dormant_flag",
+      "dormant_year",
+      "reporting_type",
+      "ucr_agency_name",
+      "ncic_agency_name",
+      "pub_agency_name",
+      "pub_agency_unit",
+      "agency_status",
+      "state_id",
+      "state_name",
+      "state_abbr",
+      "state_postal_abbr",
+      "division_code",
+      "division_name",
+      "region_code",
+      "region_name",
+      "region_desc",
+      "agency_type_name",
+      "population",
+      "submitting_agency_id",
+      "sai",
+      "submitting_agency_name",
+      "suburban_area_flag",
+      "population_group_id",
+      "population_group_code",
+      "population_group_desc",
+      "parent_pop_group_code",
+      "parent_pop_group_desc",
+      "mip_flag",
+      "pop_sort_order",
+      "summary_rape_def",
+      "pe_reported_flag",
+      "male_officer",
+      "male_civilian",
+      "male_officer+male_civilian",
+      "female_officer",
+      "female_civilian",
+      "female_officer+female_civilian",
+      "officer_rate",
+      "employee_rate",
+      "nibrs_cert_date",
+      "nibrs_start_date",
+      "nibrs_leoka_start_date",
+      "nibrs_ct_start_date",
+      "nibrs_multi_bias_start_date",
+      "nibrs_off_eth_start_date",
+      "covered_flag",
+      "county_name",
+      "msa_name",
+      "publishable_flag",
+      "participated",
+      "nibrs_participated"
+    ],
+    "preview": [
+      {
+        "yearly_agency_id": 9372024,
+        "agency_id": 937,
+        "data_year": 2024,
+        "ori": "CA0010000",
+        "legacy_ori": "CA0010000",
+        "covered_by_legacy_ori": NaN,
+        "direct_contributor_flag": "N",
+        "dormant_flag": "N",
+        "dormant_year": NaN,
+        "reporting_type": "I",
+        "ucr_agency_name": "ALAMEDA",
+        "ncic_agency_name": "ALAMEDA CO SO OAKLAND",
+        "pub_agency_name": "Alameda",
+        "pub_agency_unit": NaN,
+        "agency_status": "A",
+        "state_id": 6,
+        "state_name": "California",
+        "state_abbr": "CA",
+        "state_postal_abbr": "CA",
+        "division_code": 9,
+        "division_name": "Pacific",
+        "region_code": 4,
+        "region_name": "West",
+        "region_desc": "Region IV",
+        "agency_type_name": "County",
+        "population": 165271,
+        "submitting_agency_id": 23357,
+        "sai": "CAUCR0001",
+        "submitting_agency_name": "Department of Justice Criminal Justice Statistics Center",
+        "suburban_area_flag": "Y",
+        "population_group_id": 19,
+        "population_group_code": "9A",
+        "population_group_desc": "MSA counties 100,000 or over",
+        "parent_pop_group_code": 9,
+        "parent_pop_group_desc": "MSA Counties",
+        "mip_flag": "Y",
+        "pop_sort_order": 19,
+        "summary_rape_def": NaN,
+        "pe_reported_flag": "Y",
+        "male_officer": 915,
+        "male_civilian": 199,
+        "male_officer+male_civilian": 1114,
+        "female_officer": 129,
+        "female_civilian": 366,
+        "female_officer+female_civilian": 495,
+        "officer_rate": 6.3,
+        "employee_rate": 9.7,
+        "nibrs_cert_date": "2021-01-01",
+        "nibrs_start_date": "2022-07-01",
+        "nibrs_leoka_start_date": "2022-10-01",
+        "nibrs_ct_start_date": "2022-10-01",
+        "nibrs_multi_bias_start_date": "2022-10-01",
+        "nibrs_off_eth_start_date": "2022-10-01",
+        "covered_flag": "N",
+        "county_name": "ALAMEDA",
+        "msa_name": "San Francisco-Oakland-Fremont, CA",
+        "publishable_flag": "Y",
+        "participated": "Y",
+        "nibrs_participated": "Y"
+      },
+      {
+        "yearly_agency_id": 9382024,
+        "agency_id": 938,
+        "data_year": 2024,
+        "ori": "CA0010100",
+        "legacy_ori": "CA0010100",
+        "covered_by_legacy_ori": NaN,
+        "direct_contributor_flag": "N",
+        "dormant_flag": "N",
+        "dormant_year": NaN,
+        "reporting_type": "I",
+        "ucr_agency_name": "ALAMEDA",
+        "ncic_agency_name": "ALAMEDA PD",
+        "pub_agency_name": "Alameda",
+        "pub_agency_unit": NaN,
+        "agency_status": "A",
+        "state_id": 6,
+        "state_name": "California",
+        "state_abbr": "CA",
+        "state_postal_abbr": "CA",
+        "division_code": 9,
+        "division_name": "Pacific",
+        "region_code": 4,
+        "region_name": "West",
+        "region_desc": "Region IV",
+        "agency_type_name": "City",
+        "population": 74458,
+        "submitting_agency_id": 23357,
+        "sai": "CAUCR0001",
+        "submitting_agency_name": "Department of Justice Criminal Justice Statistics Center",
+        "suburban_area_flag": "N",
+        "population_group_id": 7,
+        "population_group_code": "3",
+        "population_group_desc": "Cities from 50,000 thru 99,999",
+        "parent_pop_group_code": 3,
+        "parent_pop_group_desc": "Cities from 50,000 thru 99,999",
+        "mip_flag": "N",
+        "pop_sort_order": 7,
+        "summary_rape_def": NaN,
+        "pe_reported_flag": "Y",
+        "male_officer": 59,
+        "male_civilian": 6,
+        "male_officer+male_civilian": 65,
+        "female_officer": 11,
+        "female_civilian": 27,
+        "female_officer+female_civilian": 38,
+        "officer_rate": 0.9,
+        "employee_rate": 1.4,
+        "nibrs_cert_date": "2021-01-01",
+        "nibrs_start_date": "2021-11-01",
+        "nibrs_leoka_start_date": "2022-07-01",
+        "nibrs_ct_start_date": "2022-07-01",
+        "nibrs_multi_bias_start_date": "2022-07-01",
+        "nibrs_off_eth_start_date": "2022-07-01",
+        "covered_flag": "N",
+        "county_name": "ALAMEDA",
+        "msa_name": "San Francisco-Oakland-Fremont, CA",
+        "publishable_flag": "Y",
+        "participated": "Y",
+        "nibrs_participated": "Y"
+      },
+      {
+        "yearly_agency_id": 9392024,
+        "agency_id": 939,
+        "data_year": 2024,
+        "ori": "CA0010200",
+        "legacy_ori": "CA0010200",
+        "covered_by_legacy_ori": NaN,
+        "direct_contributor_flag": "N",
+        "dormant_flag": "N",
+        "dormant_year": NaN,
+        "reporting_type": "I",
+        "ucr_agency_name": "ALBANY",
+        "ncic_agency_name": "ALBANY PD",
+        "pub_agency_name": "Albany",
+        "pub_agency_unit": NaN,
+        "agency_status": "A",
+        "state_id": 6,
+        "state_name": "California",
+        "state_abbr": "CA",
+        "state_postal_abbr": "CA",
+        "division_code": 9,
+        "division_name": "Pacific",
+        "region_code": 4,
+        "region_name": "West",
+        "region_desc": "Region IV",
+        "agency_type_name": "City",
+        "population": 18735,
+        "submitting_agency_id": 23357,
+        "sai": "CAUCR0001",
+        "submitting_agency_name": "Department of Justice Criminal Justice Statistics Center",
+        "suburban_area_flag": "Y",
+        "population_group_id": 9,
+        "population_group_code": "5",
+        "population_group_desc": "Cities from 10,000 thru 24,999",
+        "parent_pop_group_code": 5,
+        "parent_pop_group_desc": "Cities from 10,000 thru 24,999",
+        "mip_flag": "N",
+        "pop_sort_order": 9,
+        "summary_rape_def": NaN,
+        "pe_reported_flag": "Y",
+        "male_officer": 22,
+        "male_civilian": 2,
+        "male_officer+male_civilian": 24,
+        "female_officer": 3,
+        "female_civilian": 10,
+        "female_officer+female_civilian": 13,
+        "officer_rate": 1.3,
+        "employee_rate": 2.0,
+        "nibrs_cert_date": "2021-01-01",
+        "nibrs_start_date": "2021-09-01",
+        "nibrs_leoka_start_date": "2022-07-01",
+        "nibrs_ct_start_date": "2022-07-01",
+        "nibrs_multi_bias_start_date": "2022-07-01",
+        "nibrs_off_eth_start_date": "2022-07-01",
+        "covered_flag": "N",
+        "county_name": "ALAMEDA",
+        "msa_name": "San Francisco-Oakland-Fremont, CA",
+        "publishable_flag": "Y",
+        "participated": "Y",
+        "nibrs_participated": "Y"
+      }
+    ],
+    "ncols": 59
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_ACTIVITY_TYPE.csv",
+    "size_bytes": 478,
+    "columns": [
+      "activity_type_id",
+      "activity_type_code",
+      "activity_type_name"
+    ],
+    "preview": [
+      {
+        "activity_type_id": 1,
+        "activity_type_code": 1,
+        "activity_type_name": "Responding to Disturbance Call"
+      },
+      {
+        "activity_type_id": 2,
+        "activity_type_code": 2,
+        "activity_type_name": "Burglaries in Progress or Pursuing Burglary Suspects"
+      },
+      {
+        "activity_type_id": 3,
+        "activity_type_code": 3,
+        "activity_type_name": "Robberies in Progress or Pursuing Robbery Suspects"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_AGE.csv",
+    "size_bytes": 1993,
+    "columns": [
+      "age_id",
+      "age_code",
+      "age_name"
+    ],
+    "preview": [
+      {
+        "age_id": 1,
+        "age_code": "NN",
+        "age_name": "Under 24 Hours"
+      },
+      {
+        "age_id": 2,
+        "age_code": "NB",
+        "age_name": "1-6 Days Old"
+      },
+      {
+        "age_id": 3,
+        "age_code": "BB",
+        "age_name": "7-364 Days Old"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_ARRESTEE.csv",
+    "size_bytes": 5590920,
+    "columns": [
+      "data_year",
+      "arrestee_id",
+      "incident_id",
+      "arrestee_seq_num",
+      "arrest_date",
+      "arrest_type_id",
+      "multiple_indicator",
+      "offense_code",
+      "age_id",
+      "age_num",
+      "sex_code",
+      "race_id",
+      "ethnicity_id",
+      "resident_code",
+      "under_18_disposition_code",
+      "clearance_ind",
+      "age_range_low_num",
+      "age_range_high_num"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "arrestee_id": 60324206,
+        "incident_id": 197507689,
+        "arrestee_seq_num": 1,
+        "arrest_date": "2024-01-01",
+        "arrest_type_id": 2,
+        "multiple_indicator": "N",
+        "offense_code": "13B",
+        "age_id": 32,
+        "age_num": 29,
+        "sex_code": "M",
+        "race_id": 20,
+        "ethnicity_id": 40,
+        "resident_code": "R",
+        "under_18_disposition_code": NaN,
+        "clearance_ind": NaN,
+        "age_range_low_num": 29,
+        "age_range_high_num": NaN
+      },
+      {
+        "data_year": 2024,
+        "arrestee_id": 57244959,
+        "incident_id": 188051433,
+        "arrestee_seq_num": 1,
+        "arrest_date": "2024-01-01",
+        "arrest_type_id": 3,
+        "multiple_indicator": "N",
+        "offense_code": "13B",
+        "age_id": 39,
+        "age_num": 36,
+        "sex_code": "M",
+        "race_id": 10,
+        "ethnicity_id": 10,
+        "resident_code": "R",
+        "under_18_disposition_code": NaN,
+        "clearance_ind": NaN,
+        "age_range_low_num": 36,
+        "age_range_high_num": NaN
+      },
+      {
+        "data_year": 2024,
+        "arrestee_id": 57244858,
+        "incident_id": 188051071,
+        "arrestee_seq_num": 1,
+        "arrest_date": "2024-01-16",
+        "arrest_type_id": 3,
+        "multiple_indicator": "N",
+        "offense_code": "220",
+        "age_id": 28,
+        "age_num": 25,
+        "sex_code": "M",
+        "race_id": 10,
+        "ethnicity_id": 10,
+        "resident_code": "R",
+        "under_18_disposition_code": NaN,
+        "clearance_ind": NaN,
+        "age_range_low_num": 25,
+        "age_range_high_num": NaN
+      }
+    ],
+    "ncols": 18
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_ARRESTEE_GROUPB.csv",
+    "size_bytes": 3684872,
+    "columns": [
+      "data_year",
+      "groupb_arrestee_id",
+      "arrestee_seq_num",
+      "arrest_date",
+      "arrest_type_id",
+      "offense_code",
+      "age_id",
+      "age_num",
+      "sex_code",
+      "race_id",
+      "ethnicity_id",
+      "resident_code",
+      "under_18_disposition_code",
+      "age_range_low_num",
+      "age_range_high_num"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "groupb_arrestee_id": 52436777,
+        "arrestee_seq_num": 1,
+        "arrest_date": "2024-01-20",
+        "arrest_type_id": 2,
+        "offense_code": "90D",
+        "age_id": 23,
+        "age_num": 20,
+        "sex_code": "M",
+        "race_id": 10,
+        "ethnicity_id": 50,
+        "resident_code": "R",
+        "under_18_disposition_code": NaN,
+        "age_range_low_num": NaN,
+        "age_range_high_num": NaN
+      },
+      {
+        "data_year": 2024,
+        "groupb_arrestee_id": 54148199,
+        "arrestee_seq_num": 1,
+        "arrest_date": "2024-01-01",
+        "arrest_type_id": 2,
+        "offense_code": "90D",
+        "age_id": 34,
+        "age_num": 31,
+        "sex_code": "M",
+        "race_id": 10,
+        "ethnicity_id": 10,
+        "resident_code": "R",
+        "under_18_disposition_code": NaN,
+        "age_range_low_num": 31.0,
+        "age_range_high_num": NaN
+      },
+      {
+        "data_year": 2024,
+        "groupb_arrestee_id": 55900652,
+        "arrestee_seq_num": 1,
+        "arrest_date": "2024-01-01",
+        "arrest_type_id": 2,
+        "offense_code": "90D",
+        "age_id": 31,
+        "age_num": 28,
+        "sex_code": "M",
+        "race_id": 10,
+        "ethnicity_id": 50,
+        "resident_code": "N",
+        "under_18_disposition_code": NaN,
+        "age_range_low_num": 28.0,
+        "age_range_high_num": NaN
+      }
+    ],
+    "ncols": 15
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_ARRESTEE_GROUPB_WEAPON.csv",
+    "size_bytes": 1396119,
+    "columns": [
+      "data_year",
+      "groupb_arrestee_id",
+      "weapon_code",
+      "weapon_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "groupb_arrestee_id": 52113001,
+        "weapon_code": 1,
+        "weapon_id": 51
+      },
+      {
+        "data_year": 2024,
+        "groupb_arrestee_id": 52113019,
+        "weapon_code": 1,
+        "weapon_id": 51
+      },
+      {
+        "data_year": 2024,
+        "groupb_arrestee_id": 52113032,
+        "weapon_code": 1,
+        "weapon_id": 51
+      }
+    ],
+    "ncols": 4
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_ARRESTEE_WEAPON.csv",
+    "size_bytes": 1505799,
+    "columns": [
+      "data_year",
+      "arrestee_id",
+      "nibrs_arrestee_weapon_id",
+      "weapon_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "arrestee_id": 57244959,
+        "nibrs_arrestee_weapon_id": NaN,
+        "weapon_id": 51
+      },
+      {
+        "data_year": 2024,
+        "arrestee_id": 57244858,
+        "nibrs_arrestee_weapon_id": NaN,
+        "weapon_id": 51
+      },
+      {
+        "data_year": 2024,
+        "arrestee_id": 57244859,
+        "nibrs_arrestee_weapon_id": NaN,
+        "weapon_id": 51
+      }
+    ],
+    "ncols": 4
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_ARREST_TYPE.csv",
+    "size_bytes": 105,
+    "columns": [
+      "arrest_type_id",
+      "arrest_type_code",
+      "arrest_type_name"
+    ],
+    "preview": [
+      {
+        "arrest_type_id": 1,
+        "arrest_type_code": "O",
+        "arrest_type_name": "On View"
+      },
+      {
+        "arrest_type_id": 2,
+        "arrest_type_code": "S",
+        "arrest_type_name": "Summoned / Cited"
+      },
+      {
+        "arrest_type_id": 3,
+        "arrest_type_code": "T",
+        "arrest_type_name": "Taken INTO Custody"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_ASSIGNMENT_TYPE.csv",
+    "size_bytes": 266,
+    "columns": [
+      "assignment_type_id",
+      "assignment_type_code",
+      "assignment_type_name"
+    ],
+    "preview": [
+      {
+        "assignment_type_id": 1,
+        "assignment_type_code": "F",
+        "assignment_type_name": "Two-Officer Vehicle"
+      },
+      {
+        "assignment_type_id": 2,
+        "assignment_type_code": "G",
+        "assignment_type_name": "One-Officer (Alone)"
+      },
+      {
+        "assignment_type_id": 3,
+        "assignment_type_code": "H",
+        "assignment_type_name": "One-Officer (Assisted)"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_BIAS_LIST.csv",
+    "size_bytes": 1623,
+    "columns": [
+      "bias_id",
+      "bias_code",
+      "bias_category",
+      "bias_desc"
+    ],
+    "preview": [
+      {
+        "bias_id": 11,
+        "bias_code": 11,
+        "bias_category": "Race/Ethnicity/Ancestry",
+        "bias_desc": "Anti-White"
+      },
+      {
+        "bias_id": 12,
+        "bias_code": 12,
+        "bias_category": "Race/Ethnicity/Ancestry",
+        "bias_desc": "Anti-Black or African American"
+      },
+      {
+        "bias_id": 13,
+        "bias_code": 13,
+        "bias_category": "Race/Ethnicity/Ancestry",
+        "bias_desc": "Anti-American Indian or Alaska Native"
+      }
+    ],
+    "ncols": 4
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_BIAS_MOTIVATION.csv",
+    "size_bytes": 7502411,
+    "columns": [
+      "data_year",
+      "bias_id",
+      "offense_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "bias_id": 88,
+        "offense_id": 223528340
+      },
+      {
+        "data_year": 2024,
+        "bias_id": 88,
+        "offense_id": 223527894
+      },
+      {
+        "data_year": 2024,
+        "bias_id": 88,
+        "offense_id": 223527956
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_CIRCUMSTANCES.csv",
+    "size_bytes": 556,
+    "columns": [
+      "circumstances_id",
+      "circumstance_type",
+      "circumstance_code",
+      "circumstance_name"
+    ],
+    "preview": [
+      {
+        "circumstances_id": 1,
+        "circumstance_type": "A",
+        "circumstance_code": 1,
+        "circumstance_name": "Argument"
+      },
+      {
+        "circumstances_id": 2,
+        "circumstance_type": "A",
+        "circumstance_code": 2,
+        "circumstance_name": "Assault on Law Enforcement Officer"
+      },
+      {
+        "circumstances_id": 3,
+        "circumstance_type": "A",
+        "circumstance_code": 3,
+        "circumstance_name": "Drug Dealing"
+      }
+    ],
+    "ncols": 4
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_CLEARED_EXCEPT.csv",
+    "size_bytes": 691,
+    "columns": [
+      "cleared_except_id",
+      "cleared_except_code",
+      "cleared_except_name",
+      "cleared_except_desc"
+    ],
+    "preview": [
+      {
+        "cleared_except_id": 1,
+        "cleared_except_code": "A",
+        "cleared_except_name": "Death of Offender",
+        "cleared_except_desc": "Death of Offender"
+      },
+      {
+        "cleared_except_id": 2,
+        "cleared_except_code": "B",
+        "cleared_except_name": "Prosecution Declined",
+        "cleared_except_desc": "Prosecution Declined (by the prosecutor for a reason other than lack of probable cause)"
+      },
+      {
+        "cleared_except_id": 3,
+        "cleared_except_code": "C",
+        "cleared_except_name": "In Custody of Other Jurisdiction",
+        "cleared_except_desc": "In Custody of Other Jurisdiction"
+      }
+    ],
+    "ncols": 4
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_CRIMINAL_ACT.csv",
+    "size_bytes": 2095001,
+    "columns": [
+      "data_year",
+      "criminal_act_id",
+      "offense_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "criminal_act_id": 9,
+        "offense_id": 223528340
+      },
+      {
+        "data_year": 2024,
+        "criminal_act_id": 9,
+        "offense_id": 223528085
+      },
+      {
+        "data_year": 2024,
+        "criminal_act_id": 9,
+        "offense_id": 223528153
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_CRIMINAL_ACT_TYPE.csv",
+    "size_bytes": 1128,
+    "columns": [
+      "criminal_act_id",
+      "criminal_act_code",
+      "criminal_act_name",
+      "criminal_act_desc"
+    ],
+    "preview": [
+      {
+        "criminal_act_id": 1,
+        "criminal_act_code": "B",
+        "criminal_act_name": "Buying/Receiving",
+        "criminal_act_desc": "Buying/Receiving"
+      },
+      {
+        "criminal_act_id": 2,
+        "criminal_act_code": "C",
+        "criminal_act_name": "Cultivating/Manufacturing/Publishing",
+        "criminal_act_desc": "Cultivating/Manufacturing/Publishing (i.e., production of any type)"
+      },
+      {
+        "criminal_act_id": 3,
+        "criminal_act_code": "D",
+        "criminal_act_name": "Distributing/Selling",
+        "criminal_act_desc": "Distributing/Selling"
+      }
+    ],
+    "ncols": 4
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_DRUG_MEASURE_TYPE.csv",
+    "size_bytes": 218,
+    "columns": [
+      "drug_measure_type_id",
+      "drug_measure_code",
+      "drug_measure_name"
+    ],
+    "preview": [
+      {
+        "drug_measure_type_id": 1,
+        "drug_measure_code": "GM",
+        "drug_measure_name": "Gram"
+      },
+      {
+        "drug_measure_type_id": 2,
+        "drug_measure_code": "KG",
+        "drug_measure_name": "Kilogram"
+      },
+      {
+        "drug_measure_type_id": 3,
+        "drug_measure_code": "OZ",
+        "drug_measure_name": "Ounce"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_ETHNICITY.csv",
+    "size_bytes": 141,
+    "columns": [
+      "ethnicity_id",
+      "ethnicity_code",
+      "ethnicity_name"
+    ],
+    "preview": [
+      {
+        "ethnicity_id": 10,
+        "ethnicity_code": "H",
+        "ethnicity_name": "Hispanic or Latino"
+      },
+      {
+        "ethnicity_id": 20,
+        "ethnicity_code": "N",
+        "ethnicity_name": "Not Hispanic or Latino"
+      },
+      {
+        "ethnicity_id": 30,
+        "ethnicity_code": "M",
+        "ethnicity_name": "Multiple"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_INJURY.csv",
+    "size_bytes": 212,
+    "columns": [
+      "injury_id",
+      "injury_code",
+      "injury_name"
+    ],
+    "preview": [
+      {
+        "injury_id": 1,
+        "injury_code": "B",
+        "injury_name": "Apparent Broken Bones"
+      },
+      {
+        "injury_id": 2,
+        "injury_code": "I",
+        "injury_name": "Possible Internal Injury"
+      },
+      {
+        "injury_id": 3,
+        "injury_code": "L",
+        "injury_name": "Severe Laceration"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_JUSTIFIABLE_FORCE.csv",
+    "size_bytes": 435,
+    "columns": [
+      "justifiable_fore_id",
+      "justifiable_force_code",
+      "justifiable_force_name"
+    ],
+    "preview": [
+      {
+        "justifiable_fore_id": 1,
+        "justifiable_force_code": "A",
+        "justifiable_force_name": "Criminal Attacked Police Officer and That Officer Killed Criminal"
+      },
+      {
+        "justifiable_fore_id": 2,
+        "justifiable_force_code": "B",
+        "justifiable_force_name": "Criminal Attacked Fellow Police Officer and Criminal Killed by Anouther Police Officer"
+      },
+      {
+        "justifiable_fore_id": 4,
+        "justifiable_force_code": "D",
+        "justifiable_force_name": "Criminal Attempted Flight From a Crime"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_LOCATION_TYPE.csv",
+    "size_bytes": 1314,
+    "columns": [
+      "location_id",
+      "location_code",
+      "location_name"
+    ],
+    "preview": [
+      {
+        "location_id": 1,
+        "location_code": 37,
+        "location_name": "Abandoned/Condemned Structure"
+      },
+      {
+        "location_id": 2,
+        "location_code": 1,
+        "location_name": "Air/Bus/Train Terminal"
+      },
+      {
+        "location_id": 3,
+        "location_code": 38,
+        "location_name": "Amusement Park"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_OFFENDER.csv",
+    "size_bytes": 17660354,
+    "columns": [
+      "data_year",
+      "offender_id",
+      "incident_id",
+      "offender_seq_num",
+      "age_id",
+      "age_num",
+      "sex_code",
+      "race_id",
+      "ethnicity_id",
+      "age_range_low_num",
+      "age_range_high_num"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "offender_id": 213982027,
+        "incident_id": 188051433,
+        "offender_seq_num": 1,
+        "age_id": 39,
+        "age_num": 36,
+        "sex_code": "M",
+        "race_id": 10,
+        "ethnicity_id": 10,
+        "age_range_low_num": 36,
+        "age_range_high_num": NaN
+      },
+      {
+        "data_year": 2024,
+        "offender_id": 213981616,
+        "incident_id": 188051071,
+        "offender_seq_num": 1,
+        "age_id": 35,
+        "age_num": 32,
+        "sex_code": "F",
+        "race_id": 10,
+        "ethnicity_id": 10,
+        "age_range_low_num": 32,
+        "age_range_high_num": NaN
+      },
+      {
+        "data_year": 2024,
+        "offender_id": 213981617,
+        "incident_id": 188051071,
+        "offender_seq_num": 2,
+        "age_id": 28,
+        "age_num": 25,
+        "sex_code": "M",
+        "race_id": 10,
+        "ethnicity_id": 10,
+        "age_range_low_num": 25,
+        "age_range_high_num": NaN
+      }
+    ],
+    "ncols": 11
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_OFFENSE.csv",
+    "size_bytes": 15026142,
+    "columns": [
+      "data_year",
+      "offense_id",
+      "incident_id",
+      "offense_code",
+      "attempt_complete_flag",
+      "location_id",
+      "num_premises_entered",
+      "method_entry_code"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "offense_id": 223528340,
+        "incident_id": 188051433,
+        "offense_code": "13B",
+        "attempt_complete_flag": "C",
+        "location_id": 35,
+        "num_premises_entered": NaN,
+        "method_entry_code": NaN
+      },
+      {
+        "data_year": 2024,
+        "offense_id": 223527894,
+        "incident_id": 188051071,
+        "offense_code": "220",
+        "attempt_complete_flag": "C",
+        "location_id": 35,
+        "num_premises_entered": NaN,
+        "method_entry_code": "F"
+      },
+      {
+        "data_year": 2024,
+        "offense_id": 223527956,
+        "incident_id": 188051124,
+        "offense_code": "220",
+        "attempt_complete_flag": "C",
+        "location_id": 35,
+        "num_premises_entered": NaN,
+        "method_entry_code": "F"
+      }
+    ],
+    "ncols": 8
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_OFFENSE_TYPE.csv",
+    "size_bytes": 5428,
+    "columns": [
+      "offense_code",
+      "offense_name",
+      "crime_against",
+      "ct_flag",
+      "hc_flag",
+      "hc_code",
+      "offense_category_name",
+      "offense_group"
+    ],
+    "preview": [
+      {
+        "offense_code": "09C",
+        "offense_name": "Justifiable Homicide",
+        "crime_against": "Person",
+        "ct_flag": "f",
+        "hc_flag": "f",
+        "hc_code": "  ",
+        "offense_category_name": "Homicide Offenses",
+        "offense_group": "A"
+      },
+      {
+        "offense_code": "09A",
+        "offense_name": "Murder and Nonnegligent Manslaughter",
+        "crime_against": "Person",
+        "ct_flag": "f",
+        "hc_flag": "t",
+        "hc_code": "01",
+        "offense_category_name": "Homicide Offenses",
+        "offense_group": "A"
+      },
+      {
+        "offense_code": "09B",
+        "offense_name": "Negligent Manslaughter",
+        "crime_against": "Person",
+        "ct_flag": "f",
+        "hc_flag": "t",
+        "hc_code": "  ",
+        "offense_category_name": "Homicide Offenses",
+        "offense_group": "A"
+      }
+    ],
+    "ncols": 8
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_PROPERTY.csv",
+    "size_bytes": 10622643,
+    "columns": [
+      "data_year",
+      "property_id",
+      "incident_id",
+      "prop_loss_id",
+      "stolen_count",
+      "recovered_count"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "property_id": 182086870,
+        "incident_id": 188051071,
+        "prop_loss_id": 7,
+        "stolen_count": NaN,
+        "recovered_count": NaN
+      },
+      {
+        "data_year": 2024,
+        "property_id": 182086923,
+        "incident_id": 188051124,
+        "prop_loss_id": 1,
+        "stolen_count": NaN,
+        "recovered_count": NaN
+      },
+      {
+        "data_year": 2024,
+        "property_id": 182086979,
+        "incident_id": 188051185,
+        "prop_loss_id": 7,
+        "stolen_count": NaN,
+        "recovered_count": NaN
+      }
+    ],
+    "ncols": 6
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_PROPERTY_DESC.csv",
+    "size_bytes": 10319136,
+    "columns": [
+      "data_year",
+      "property_id",
+      "prop_desc_id",
+      "property_value",
+      "date_recovered",
+      "nibrs_prop_desc_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "property_id": 182086870,
+        "prop_desc_id": 6,
+        "property_value": 3208,
+        "date_recovered": NaN,
+        "nibrs_prop_desc_id": NaN
+      },
+      {
+        "data_year": 2024,
+        "property_id": 182086870,
+        "prop_desc_id": 7,
+        "property_value": 1998,
+        "date_recovered": NaN,
+        "nibrs_prop_desc_id": NaN
+      },
+      {
+        "data_year": 2024,
+        "property_id": 182086870,
+        "prop_desc_id": 26,
+        "property_value": 1400,
+        "date_recovered": NaN,
+        "nibrs_prop_desc_id": NaN
+      }
+    ],
+    "ncols": 6
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_PROP_DESC_TYPE.csv",
+    "size_bytes": 1696,
+    "columns": [
+      "prop_desc_id",
+      "prop_desc_name",
+      "prop_desc_code"
+    ],
+    "preview": [
+      {
+        "prop_desc_id": 1,
+        "prop_desc_name": "Aircraft",
+        "prop_desc_code": 1
+      },
+      {
+        "prop_desc_id": 2,
+        "prop_desc_name": "Alcohol",
+        "prop_desc_code": 2
+      },
+      {
+        "prop_desc_id": 3,
+        "prop_desc_name": "Automobile",
+        "prop_desc_code": 3
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_PROP_LOSS_TYPE.csv",
+    "size_bytes": 480,
+    "columns": [
+      "prop_loss_id",
+      "prop_loss_name",
+      "prop_loss_desc"
+    ],
+    "preview": [
+      {
+        "prop_loss_id": 1,
+        "prop_loss_name": "None",
+        "prop_loss_desc": "None"
+      },
+      {
+        "prop_loss_id": 2,
+        "prop_loss_name": "Burned",
+        "prop_loss_desc": "Burned (includes damage caused in fighting the fire)"
+      },
+      {
+        "prop_loss_id": 3,
+        "prop_loss_name": "Counterfeited/Forged",
+        "prop_loss_desc": "Counterfeited/Forged"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_RELATIONSHIP.csv",
+    "size_bytes": 958,
+    "columns": [
+      "relationship_id",
+      "relationship_code",
+      "relationship_name"
+    ],
+    "preview": [
+      {
+        "relationship_id": 1,
+        "relationship_code": "AQ",
+        "relationship_name": "Victim Was Acquaintance"
+      },
+      {
+        "relationship_id": 2,
+        "relationship_code": "BE",
+        "relationship_name": "Victim Was Babysittee"
+      },
+      {
+        "relationship_id": 3,
+        "relationship_code": "BG",
+        "relationship_name": "Victim Was Boyfriend/Girlfriend"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_SUSPECTED_DRUG.csv",
+    "size_bytes": 638642,
+    "columns": [
+      "data_year",
+      "suspected_drug_type_id",
+      "property_id",
+      "est_drug_qty",
+      "drug_measure_type_id",
+      "nibrs_suspected_drug_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "suspected_drug_type_id": 5,
+        "property_id": 198734849,
+        "est_drug_qty": 3.0,
+        "drug_measure_type_id": 1,
+        "nibrs_suspected_drug_id": 19849379
+      },
+      {
+        "data_year": 2024,
+        "suspected_drug_type_id": 2,
+        "property_id": 188779847,
+        "est_drug_qty": 1.0,
+        "drug_measure_type_id": 1,
+        "nibrs_suspected_drug_id": 18427169
+      },
+      {
+        "data_year": 2024,
+        "suspected_drug_type_id": 5,
+        "property_id": 184772446,
+        "est_drug_qty": 3.0,
+        "drug_measure_type_id": 1,
+        "nibrs_suspected_drug_id": 17823664
+      }
+    ],
+    "ncols": 6
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_SUSPECTED_DRUG_TYPE.csv",
+    "size_bytes": 354,
+    "columns": [
+      "suspected_drug_type_id",
+      "suspected_drug_code",
+      "suspected_drug_name"
+    ],
+    "preview": [
+      {
+        "suspected_drug_type_id": 1,
+        "suspected_drug_code": "A",
+        "suspected_drug_name": "Crack Cocaine"
+      },
+      {
+        "suspected_drug_type_id": 2,
+        "suspected_drug_code": "B",
+        "suspected_drug_name": "Cocaine"
+      },
+      {
+        "suspected_drug_type_id": 3,
+        "suspected_drug_code": "C",
+        "suspected_drug_name": "Hashish"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_SUSPECT_USING.csv",
+    "size_bytes": 7128104,
+    "columns": [
+      "data_year",
+      "suspect_using_id",
+      "offense_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "suspect_using_id": 1,
+        "offense_id": 223528340
+      },
+      {
+        "data_year": 2024,
+        "suspect_using_id": 4,
+        "offense_id": 223527894
+      },
+      {
+        "data_year": 2024,
+        "suspect_using_id": 4,
+        "offense_id": 223527956
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_USING_LIST.csv",
+    "size_bytes": 183,
+    "columns": [
+      "suspect_using_id",
+      "suspect_using_code",
+      "suspect_using_name"
+    ],
+    "preview": [
+      {
+        "suspect_using_id": 1,
+        "suspect_using_code": "A",
+        "suspect_using_name": "Alcohol"
+      },
+      {
+        "suspect_using_id": 2,
+        "suspect_using_code": "C",
+        "suspect_using_name": "Computer Equipment (Handheld Devices)"
+      },
+      {
+        "suspect_using_id": 3,
+        "suspect_using_code": "D",
+        "suspect_using_name": "Drugs/Narcotics"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_VICTIM.csv",
+    "size_bytes": 21039339,
+    "columns": [
+      "data_year",
+      "victim_id",
+      "incident_id",
+      "victim_seq_num",
+      "victim_type_id",
+      "assignment_type_id",
+      "activity_type_id",
+      "outside_agency_id",
+      "age_id",
+      "age_num",
+      "sex_code",
+      "race_id",
+      "ethnicity_id",
+      "resident_status_code",
+      "age_range_low_num",
+      "age_code_range_high"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "victim_id": 209068583,
+        "incident_id": 188051433,
+        "victim_seq_num": 1,
+        "victim_type_id": 4,
+        "assignment_type_id": NaN,
+        "activity_type_id": NaN,
+        "outside_agency_id": NaN,
+        "age_id": 19,
+        "age_num": 16,
+        "sex_code": "F",
+        "race_id": 10,
+        "ethnicity_id": 10,
+        "resident_status_code": "R",
+        "age_range_low_num": 16,
+        "age_code_range_high": NaN
+      },
+      {
+        "data_year": 2024,
+        "victim_id": 209068157,
+        "incident_id": 188051071,
+        "victim_seq_num": 1,
+        "victim_type_id": 4,
+        "assignment_type_id": NaN,
+        "activity_type_id": NaN,
+        "outside_agency_id": NaN,
+        "age_id": 31,
+        "age_num": 28,
+        "sex_code": "F",
+        "race_id": 10,
+        "ethnicity_id": 10,
+        "resident_status_code": "R",
+        "age_range_low_num": 28,
+        "age_code_range_high": NaN
+      },
+      {
+        "data_year": 2024,
+        "victim_id": 209068158,
+        "incident_id": 188051071,
+        "victim_seq_num": 2,
+        "victim_type_id": 4,
+        "assignment_type_id": NaN,
+        "activity_type_id": NaN,
+        "outside_agency_id": NaN,
+        "age_id": 39,
+        "age_num": 36,
+        "sex_code": "M",
+        "race_id": 10,
+        "ethnicity_id": 10,
+        "resident_status_code": "R",
+        "age_range_low_num": 36,
+        "age_code_range_high": NaN
+      }
+    ],
+    "ncols": 16
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_VICTIM_CIRCUMSTANCES.csv",
+    "size_bytes": 318,
+    "columns": [
+      "data_year",
+      "victim_id",
+      "circumstances_id",
+      "justifiable_force_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "victim_id": 207266008,
+        "circumstances_id": 21,
+        "justifiable_force_id": 1
+      },
+      {
+        "data_year": 2024,
+        "victim_id": 231792375,
+        "circumstances_id": 21,
+        "justifiable_force_id": 1
+      },
+      {
+        "data_year": 2024,
+        "victim_id": 212727181,
+        "circumstances_id": 20,
+        "justifiable_force_id": 3
+      }
+    ],
+    "ncols": 4
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_VICTIM_INJURY.csv",
+    "size_bytes": 1394761,
+    "columns": [
+      "data_year",
+      "victim_id",
+      "injury_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "victim_id": 209068583,
+        "injury_id": 5
+      },
+      {
+        "data_year": 2024,
+        "victim_id": 209068348,
+        "injury_id": 4
+      },
+      {
+        "data_year": 2024,
+        "victim_id": 209068411,
+        "injury_id": 5
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_VICTIM_OFFENDER_REL.csv",
+    "size_bytes": 5177807,
+    "columns": [
+      "data_year",
+      "victim_id",
+      "offender_id",
+      "relationship_id",
+      "nibrs_victim_offender_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "victim_id": 209068583,
+        "offender_id": 213982027,
+        "relationship_id": 5,
+        "nibrs_victim_offender_id": NaN
+      },
+      {
+        "data_year": 2024,
+        "victim_id": 209068157,
+        "offender_id": 213981616,
+        "relationship_id": 1,
+        "nibrs_victim_offender_id": NaN
+      },
+      {
+        "data_year": 2024,
+        "victim_id": 209068157,
+        "offender_id": 213981617,
+        "relationship_id": 1,
+        "nibrs_victim_offender_id": NaN
+      }
+    ],
+    "ncols": 5
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_VICTIM_OFFENSE.csv",
+    "size_bytes": 11477656,
+    "columns": [
+      "data_year",
+      "victim_id",
+      "offense_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "victim_id": 209068583,
+        "offense_id": 223528340
+      },
+      {
+        "data_year": 2024,
+        "victim_id": 209068157,
+        "offense_id": 223527894
+      },
+      {
+        "data_year": 2024,
+        "victim_id": 209068158,
+        "offense_id": 223527894
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_VICTIM_TYPE.csv",
+    "size_bytes": 214,
+    "columns": [
+      "victim_type_id",
+      "victim_type_code",
+      "victim_type_name"
+    ],
+    "preview": [
+      {
+        "victim_type_id": 1,
+        "victim_type_code": "B",
+        "victim_type_name": "Business"
+      },
+      {
+        "victim_type_id": 2,
+        "victim_type_code": "F",
+        "victim_type_name": "Financial Institution"
+      },
+      {
+        "victim_type_id": 3,
+        "victim_type_code": "G",
+        "victim_type_name": "Government"
+      }
+    ],
+    "ncols": 3
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_WEAPON.csv",
+    "size_bytes": 1540267,
+    "columns": [
+      "data_year",
+      "weapon_id",
+      "offense_id",
+      "nibrs_weapon_id"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "weapon_id": 42,
+        "offense_id": 223528340,
+        "nibrs_weapon_id": NaN
+      },
+      {
+        "data_year": 2024,
+        "weapon_id": 41,
+        "offense_id": 223528085,
+        "nibrs_weapon_id": NaN
+      },
+      {
+        "data_year": 2024,
+        "weapon_id": 42,
+        "offense_id": 223528153,
+        "nibrs_weapon_id": NaN
+      }
+    ],
+    "ncols": 4
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_WEAPON_TYPE.csv",
+    "size_bytes": 957,
+    "columns": [
+      "weapon_id",
+      "weapon_code",
+      "weapon_name",
+      "shr_flag"
+    ],
+    "preview": [
+      {
+        "weapon_id": 21,
+        "weapon_code": 20,
+        "weapon_name": "Knife/Cutting Instrument",
+        "shr_flag": "t"
+      },
+      {
+        "weapon_id": 31,
+        "weapon_code": 30,
+        "weapon_name": "Blunt Object",
+        "shr_flag": "t"
+      },
+      {
+        "weapon_id": 32,
+        "weapon_code": 35,
+        "weapon_name": "Motor Vehicle/Vessel",
+        "shr_flag": "f"
+      }
+    ],
+    "ncols": 4
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_incident.csv",
+    "size_bytes": 34740277,
+    "columns": [
+      "data_year",
+      "agency_id",
+      "incident_id",
+      "nibrs_month_id",
+      "cargo_theft_flag",
+      "submission_date",
+      "incident_date",
+      "report_date_flag",
+      "incident_hour",
+      "cleared_except_id",
+      "cleared_except_date",
+      "incident_status",
+      "data_home",
+      "orig_format",
+      "did"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "agency_id": 20593,
+        "incident_id": 188051433,
+        "nibrs_month_id": 44771869,
+        "cargo_theft_flag": "f",
+        "submission_date": "2024-03-22 15:40:12.63",
+        "incident_date": "2024-01-01",
+        "report_date_flag": "f",
+        "incident_hour": 11,
+        "cleared_except_id": 6,
+        "cleared_except_date": NaN,
+        "incident_status": "ACCEPTED",
+        "data_home": NaN,
+        "orig_format": "F",
+        "did": 239052301
+      },
+      {
+        "data_year": 2024,
+        "agency_id": 20593,
+        "incident_id": 188051071,
+        "nibrs_month_id": 44771869,
+        "cargo_theft_flag": "f",
+        "submission_date": "2024-03-22 15:40:10.554",
+        "incident_date": "2024-01-02",
+        "report_date_flag": "f",
+        "incident_hour": 12,
+        "cleared_except_id": 6,
+        "cleared_except_date": NaN,
+        "incident_status": "ACCEPTED",
+        "data_home": NaN,
+        "orig_format": "F",
+        "did": 239051859
+      },
+      {
+        "data_year": 2024,
+        "agency_id": 20593,
+        "incident_id": 188051124,
+        "nibrs_month_id": 44771869,
+        "cargo_theft_flag": "f",
+        "submission_date": "2024-03-22 15:40:10.864",
+        "incident_date": "2024-01-03",
+        "report_date_flag": "f",
+        "incident_hour": 4,
+        "cleared_except_id": 6,
+        "cleared_except_date": NaN,
+        "incident_status": "ACCEPTED",
+        "data_home": NaN,
+        "orig_format": "F",
+        "did": 239051934
+      }
+    ],
+    "ncols": 15
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/NIBRS_month.csv",
+    "size_bytes": 28297920,
+    "columns": [
+      "data_year",
+      "nibrs_month_id",
+      "agency_id",
+      "month_num",
+      "inc_data_year",
+      "reported_status",
+      "report_date",
+      "update_flag",
+      "orig_format",
+      "data_home",
+      "ddocname",
+      "did",
+      "month_pub_status"
+    ],
+    "preview": [
+      {
+        "data_year": 2024,
+        "nibrs_month_id": 44771869,
+        "agency_id": 20593,
+        "month_num": 1,
+        "inc_data_year": 2024,
+        "reported_status": "I",
+        "report_date": NaN,
+        "update_flag": NaN,
+        "orig_format": "F",
+        "data_home": NaN,
+        "ddocname": "2024_01_WA0010000_24-A00005_INC",
+        "did": 239052301,
+        "month_pub_status": NaN
+      },
+      {
+        "data_year": 2024,
+        "nibrs_month_id": 44771869,
+        "agency_id": 20593,
+        "month_num": 1,
+        "inc_data_year": 2024,
+        "reported_status": "I",
+        "report_date": NaN,
+        "update_flag": NaN,
+        "orig_format": "F",
+        "data_home": NaN,
+        "ddocname": "2024_01_WA0010000_24-A00015_INC",
+        "did": 239051859,
+        "month_pub_status": NaN
+      },
+      {
+        "data_year": 2024,
+        "nibrs_month_id": 44771869,
+        "agency_id": 20593,
+        "month_num": 1,
+        "inc_data_year": 2024,
+        "reported_status": "I",
+        "report_date": NaN,
+        "update_flag": NaN,
+        "orig_format": "F",
+        "data_home": NaN,
+        "ddocname": "2024_01_WA0010000_24-A00023_INC",
+        "did": 239051934,
+        "month_pub_status": NaN
+      }
+    ],
+    "ncols": 13
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/REF_RACE.csv",
+    "size_bytes": 661,
+    "columns": [
+      "race_id",
+      "race_code",
+      "race_desc",
+      "sort_order",
+      "start_year",
+      "end_year",
+      "notes"
+    ],
+    "preview": [
+      {
+        "race_id": 98,
+        "race_code": "U",
+        "race_desc": "Unknown",
+        "sort_order": 98,
+        "start_year": NaN,
+        "end_year": NaN,
+        "notes": "Race is explicitly unknown"
+      },
+      {
+        "race_id": 10,
+        "race_code": "W",
+        "race_desc": "White",
+        "sort_order": 10,
+        "start_year": NaN,
+        "end_year": NaN,
+        "notes": NaN
+      },
+      {
+        "race_id": 20,
+        "race_code": "B",
+        "race_desc": "Black or African American",
+        "sort_order": 20,
+        "start_year": NaN,
+        "end_year": NaN,
+        "notes": NaN
+      }
+    ],
+    "ncols": 7
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/REF_STATE.csv",
+    "size_bytes": 1945,
+    "columns": [
+      "state_id",
+      "division_id",
+      "state_name",
+      "state_code",
+      "state_abbr",
+      "state_postal_abbr",
+      "state_fips_code",
+      "state_pub_freq_months",
+      "change_user"
+    ],
+    "preview": [
+      {
+        "state_id": 1,
+        "division_id": 10,
+        "state_name": "Alaska",
+        "state_code": 50,
+        "state_abbr": "AK",
+        "state_postal_abbr": "AK",
+        "state_fips_code": 2,
+        "state_pub_freq_months": 12,
+        "change_user": NaN
+      },
+      {
+        "state_id": 2,
+        "division_id": 7,
+        "state_name": "Alabama",
+        "state_code": 1,
+        "state_abbr": "AL",
+        "state_postal_abbr": "AL",
+        "state_fips_code": 1,
+        "state_pub_freq_months": 12,
+        "change_user": NaN
+      },
+      {
+        "state_id": 3,
+        "division_id": 8,
+        "state_name": "Arkansas",
+        "state_code": 3,
+        "state_abbr": "AR",
+        "state_postal_abbr": "AR",
+        "state_fips_code": 5,
+        "state_pub_freq_months": 12,
+        "change_user": NaN
+      }
+    ],
+    "ncols": 9
+  },
+  {
+    "file": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/data/raw/nibrs_wa_2024/WA-2024/agencies.csv",
+    "size_bytes": 123974,
+    "columns": [
+      "yearly_agency_id",
+      "agency_id",
+      "data_year",
+      "ori",
+      "legacy_ori",
+      "covered_by_legacy_ori",
+      "direct_contributor_flag",
+      "dormant_flag",
+      "dormant_year",
+      "reporting_type",
+      "ucr_agency_name",
+      "ncic_agency_name",
+      "pub_agency_name",
+      "pub_agency_unit",
+      "agency_status",
+      "state_id",
+      "state_name",
+      "state_abbr",
+      "state_postal_abbr",
+      "division_code",
+      "division_name",
+      "region_code",
+      "region_name",
+      "region_desc",
+      "agency_type_name",
+      "population",
+      "submitting_agency_id",
+      "sai",
+      "submitting_agency_name",
+      "suburban_area_flag",
+      "population_group_id",
+      "population_group_code",
+      "population_group_desc",
+      "parent_pop_group_code",
+      "parent_pop_group_desc",
+      "mip_flag",
+      "pop_sort_order",
+      "summary_rape_def",
+      "pe_reported_flag",
+      "male_officer",
+      "male_civilian",
+      "male_officer+male_civilian",
+      "female_officer",
+      "female_civilian",
+      "female_officer+female_civilian",
+      "officer_rate",
+      "employee_rate",
+      "nibrs_cert_date",
+      "nibrs_start_date",
+      "nibrs_leoka_start_date",
+      "nibrs_ct_start_date",
+      "nibrs_multi_bias_start_date",
+      "nibrs_off_eth_start_date",
+      "covered_flag",
+      "county_name",
+      "msa_name",
+      "publishable_flag",
+      "participated",
+      "nibrs_participated"
+    ],
+    "preview": [
+      {
+        "yearly_agency_id": 205932024,
+        "agency_id": 20593,
+        "data_year": 2024,
+        "ori": "WA0010000",
+        "legacy_ori": "WA0010000",
+        "covered_by_legacy_ori": NaN,
+        "direct_contributor_flag": "N",
+        "dormant_flag": "N",
+        "dormant_year": NaN,
+        "reporting_type": "I",
+        "ucr_agency_name": "ADAMS",
+        "ncic_agency_name": "ADAMS CO SO RITZVILLE",
+        "pub_agency_name": "Adams",
+        "pub_agency_unit": NaN,
+        "agency_status": "A",
+        "state_id": 53,
+        "state_name": "Washington",
+        "state_abbr": "WA",
+        "state_postal_abbr": "WA",
+        "division_code": 9,
+        "division_name": "Pacific",
+        "region_code": 4,
+        "region_name": "West",
+        "region_desc": "Region IV",
+        "agency_type_name": "County",
+        "population": 10511,
+        "submitting_agency_id": 23398,
+        "sai": "WAUCR0001",
+        "submitting_agency_name": "Washington Association of Sheriffs and Police Chiefs Uniform Crime Reporting Program Criminal Justice Information Support",
+        "suburban_area_flag": "N",
+        "population_group_id": 15,
+        "population_group_code": "8C",
+        "population_group_desc": "Non-MSA counties from 10,000 thru 24,999",
+        "parent_pop_group_code": 8,
+        "parent_pop_group_desc": "Non-MSA Counties",
+        "mip_flag": "N",
+        "pop_sort_order": 15,
+        "summary_rape_def": NaN,
+        "pe_reported_flag": "Y",
+        "male_officer": 18,
+        "male_civilian": 11,
+        "male_officer+male_civilian": 29,
+        "female_officer": 0,
+        "female_civilian": 11,
+        "female_officer+female_civilian": 11,
+        "officer_rate": 1.7,
+        "employee_rate": 3.8,
+        "nibrs_cert_date": "2004-08-01",
+        "nibrs_start_date": "2010-10-01",
+        "nibrs_leoka_start_date": "2010-10-01",
+        "nibrs_ct_start_date": "2018-08-01",
+        "nibrs_multi_bias_start_date": "2013-01-01",
+        "nibrs_off_eth_start_date": "2013-01-01",
+        "covered_flag": "N",
+        "county_name": "ADAMS",
+        "msa_name": "Not Specified",
+        "publishable_flag": "Y",
+        "participated": "Y",
+        "nibrs_participated": "Y"
+      },
+      {
+        "yearly_agency_id": 205942024,
+        "agency_id": 20594,
+        "data_year": 2024,
+        "ori": "WA0010100",
+        "legacy_ori": "WA0010100",
+        "covered_by_legacy_ori": NaN,
+        "direct_contributor_flag": "N",
+        "dormant_flag": "N",
+        "dormant_year": NaN,
+        "reporting_type": "I",
+        "ucr_agency_name": "OTHELLO",
+        "ncic_agency_name": "OTHELLO PD",
+        "pub_agency_name": "Othello",
+        "pub_agency_unit": NaN,
+        "agency_status": "A",
+        "state_id": 53,
+        "state_name": "Washington",
+        "state_abbr": "WA",
+        "state_postal_abbr": "WA",
+        "division_code": 9,
+        "division_name": "Pacific",
+        "region_code": 4,
+        "region_name": "West",
+        "region_desc": "Region IV",
+        "agency_type_name": "City",
+        "population": 8989,
+        "submitting_agency_id": 23398,
+        "sai": "WAUCR0001",
+        "submitting_agency_name": "Washington Association of Sheriffs and Police Chiefs Uniform Crime Reporting Program Criminal Justice Information Support",
+        "suburban_area_flag": "N",
+        "population_group_id": 10,
+        "population_group_code": "6",
+        "population_group_desc": "Cities from 2,500 thru 9,999",
+        "parent_pop_group_code": 6,
+        "parent_pop_group_desc": "Cities from 2,500 thru 9,999",
+        "mip_flag": "N",
+        "pop_sort_order": 10,
+        "summary_rape_def": NaN,
+        "pe_reported_flag": "Y",
+        "male_officer": 18,
+        "male_civilian": 2,
+        "male_officer+male_civilian": 20,
+        "female_officer": 0,
+        "female_civilian": 8,
+        "female_officer+female_civilian": 8,
+        "officer_rate": 2.0,
+        "employee_rate": 3.1,
+        "nibrs_cert_date": "2004-08-01",
+        "nibrs_start_date": "2010-08-01",
+        "nibrs_leoka_start_date": "2010-08-01",
+        "nibrs_ct_start_date": "2019-02-01",
+        "nibrs_multi_bias_start_date": "2013-01-01",
+        "nibrs_off_eth_start_date": "2013-01-01",
+        "covered_flag": "N",
+        "county_name": "ADAMS",
+        "msa_name": "Not Specified",
+        "publishable_flag": "Y",
+        "participated": "Y",
+        "nibrs_participated": "Y"
+      },
+      {
+        "yearly_agency_id": 205952024,
+        "agency_id": 20595,
+        "data_year": 2024,
+        "ori": "WA0010200",
+        "legacy_ori": "WA0010200",
+        "covered_by_legacy_ori": NaN,
+        "direct_contributor_flag": "N",
+        "dormant_flag": "N",
+        "dormant_year": NaN,
+        "reporting_type": "I",
+        "ucr_agency_name": "RITZVILLE",
+        "ncic_agency_name": "RITZVILLE PD",
+        "pub_agency_name": "Ritzville",
+        "pub_agency_unit": NaN,
+        "agency_status": "A",
+        "state_id": 53,
+        "state_name": "Washington",
+        "state_abbr": "WA",
+        "state_postal_abbr": "WA",
+        "division_code": 9,
+        "division_name": "Pacific",
+        "region_code": 4,
+        "region_name": "West",
+        "region_desc": "Region IV",
+        "agency_type_name": "City",
+        "population": 1699,
+        "submitting_agency_id": 23398,
+        "sai": "WAUCR0001",
+        "submitting_agency_name": "Washington Association of Sheriffs and Police Chiefs Uniform Crime Reporting Program Criminal Justice Information Support",
+        "suburban_area_flag": "N",
+        "population_group_id": 11,
+        "population_group_code": "7",
+        "population_group_desc": "Cities under 2,500",
+        "parent_pop_group_code": 7,
+        "parent_pop_group_desc": "Cities under 2,500",
+        "mip_flag": "N",
+        "pop_sort_order": 11,
+        "summary_rape_def": NaN,
+        "pe_reported_flag": "Y",
+        "male_officer": 3,
+        "male_civilian": 1,
+        "male_officer+male_civilian": 4,
+        "female_officer": 0,
+        "female_civilian": 1,
+        "female_officer+female_civilian": 1,
+        "officer_rate": 1.8,
+        "employee_rate": 2.9,
+        "nibrs_cert_date": "2004-08-01",
+        "nibrs_start_date": "2011-06-01",
+        "nibrs_leoka_start_date": "2011-06-01",
+        "nibrs_ct_start_date": "2018-08-01",
+        "nibrs_multi_bias_start_date": "2013-01-01",
+        "nibrs_off_eth_start_date": "2013-01-01",
+        "covered_flag": "N",
+        "county_name": "ADAMS",
+        "msa_name": "Not Specified",
+        "publishable_flag": "Y",
+        "participated": "Y",
+        "nibrs_participated": "Y"
+      }
+    ],
+    "ncols": 59
+  }
+]

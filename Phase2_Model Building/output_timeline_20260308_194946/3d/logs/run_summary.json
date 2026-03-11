@@ -1,0 +1,49 @@
+{
+  "time_window_days": 3,
+  "threshold": 76,
+  "schema_consistent": true,
+  "rows": {
+    "Xy_chicago_train": 29088,
+    "Xy_chicago_2025": 2928,
+    "Xy_nibrs": 99238
+  },
+  "selected_models": [
+    "baseline_persistence",
+    "logistic_regression",
+    "random_forest",
+    "lstm"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "anchor_date": "2015-01-01",
+  "lstm_sequence_length": 8,
+  "artifacts": {
+    "table1_rows": 6,
+    "table2_rows": 4,
+    "k_by_domain": {
+      "chicago_2025": [
+        5,
+        10,
+        20
+      ],
+      "nibrs": [
+        5,
+        10,
+        20,
+        50,
+        100
+      ]
+    },
+    "region_n_by_domain": {
+      "chicago_2025": 24,
+      "nibrs": 841
+    },
+    "region_bucket_count": 4,
+    "region_bucket_region_n": 841,
+    "geo_chicago_best_model": "logistic_regression",
+    "geo_chicago_event_map_model": "logistic_regression"
+  }
+}

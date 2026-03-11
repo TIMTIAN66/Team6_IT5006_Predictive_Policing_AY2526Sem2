@@ -1,0 +1,2 @@
+time_window_days,model,seed,topk_k,n_events_total,n_events_sampled_for_plot,exact_hit_rate,neighbor_aware_hit_rate
+7,random_forest,0,5,235973,49999,0.29060951888563524,0.6256181851313498

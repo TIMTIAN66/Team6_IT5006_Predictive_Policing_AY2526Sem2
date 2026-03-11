@@ -1,0 +1,146 @@
+{
+  "run_started_at": "2026-03-08T19:49:46",
+  "run_started_at_tag": "20260308_194946",
+  "run_duration_seconds": 1142.66,
+  "output_root": "output_timeline_20260308_194946",
+  "region_strategy": "agency",
+  "region_reason": "Selected agency-level alignment (agency_id) to match Chicago district-level jurisdictions.",
+  "selected_models": [
+    "baseline_persistence",
+    "logistic_regression",
+    "random_forest",
+    "lstm"
+  ],
+  "time_windows": [
+    7,
+    3
+  ],
+  "anchor_date": "2015-01-01",
+  "lstm_sequence_length": 8,
+  "chicago_unmapped_ratio": 0.33286384942449815,
+  "nibrs_unmapped_ratio": 0.24601530731060675,
+  "windows": [
+    {
+      "time_window_days": 7,
+      "threshold": 177,
+      "schema_consistent": true,
+      "rows": {
+        "Xy_chicago_train": 12408,
+        "Xy_chicago_2025": 1248,
+        "Xy_nibrs": 40368
+      },
+      "selected_models": [
+        "baseline_persistence",
+        "logistic_regression",
+        "random_forest",
+        "lstm"
+      ],
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "anchor_date": "2015-01-01",
+      "lstm_sequence_length": 8,
+      "artifacts": {
+        "table1_rows": 6,
+        "table2_rows": 4,
+        "k_by_domain": {
+          "chicago_2025": [
+            5,
+            10,
+            20
+          ],
+          "nibrs": [
+            5,
+            10,
+            20,
+            50,
+            100
+          ]
+        },
+        "region_n_by_domain": {
+          "chicago_2025": 24,
+          "nibrs": 841
+        },
+        "region_bucket_count": 4,
+        "region_bucket_region_n": 841,
+        "geo_chicago_best_model": "random_forest",
+        "geo_chicago_event_map_model": "random_forest"
+      }
+    },
+    {
+      "time_window_days": 3,
+      "threshold": 76,
+      "schema_consistent": true,
+      "rows": {
+        "Xy_chicago_train": 29088,
+        "Xy_chicago_2025": 2928,
+        "Xy_nibrs": 99238
+      },
+      "selected_models": [
+        "baseline_persistence",
+        "logistic_regression",
+        "random_forest",
+        "lstm"
+      ],
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "anchor_date": "2015-01-01",
+      "lstm_sequence_length": 8,
+      "artifacts": {
+        "table1_rows": 6,
+        "table2_rows": 4,
+        "k_by_domain": {
+          "chicago_2025": [
+            5,
+            10,
+            20
+          ],
+          "nibrs": [
+            5,
+            10,
+            20,
+            50,
+            100
+          ]
+        },
+        "region_n_by_domain": {
+          "chicago_2025": 24,
+          "nibrs": 841
+        },
+        "region_bucket_count": 4,
+        "region_bucket_region_n": 841,
+        "geo_chicago_best_model": "logistic_regression",
+        "geo_chicago_event_map_model": "logistic_regression"
+      }
+    }
+  ],
+  "metrics_long_paths": {
+    "7": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/output_timeline_20260308_194946/7d/metrics/metrics_long.csv",
+    "3": "/Users/tim/Desktop/NUS/semester 2/IT5006/Group project/phase2/output_timeline_20260308_194946/3d/metrics/metrics_long.csv"
+  },
+  "compare_windows": {
+    "gap_rows": 48,
+    "windows": [
+      3,
+      7
+    ]
+  },
+  "compare_overall": {
+    "metric_rows": 64,
+    "figures": [
+      "fig_compare_windows_overall_auc.png",
+      "fig_compare_windows_overall_f1.png",
+      "fig_compare_windows_overall_precision.png",
+      "fig_compare_windows_overall_recall.png"
+    ],
+    "windows": [
+      3,
+      7
+    ]
+  }
+}
